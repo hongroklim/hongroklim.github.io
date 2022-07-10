@@ -2,7 +2,7 @@
 date: 2022-05-04 10:00:00 +0900
 title: 서류를 제출하고 웰컴 메일을 받기까지
 excerpt: NTU와 소통하는 건 다른 행성과 연락하는 기분이었다
-categories: exchange
+categories: diary
 ---
 
 ## (이어서) 수강예정과목이 뭐지

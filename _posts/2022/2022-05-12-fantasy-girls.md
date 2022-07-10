@@ -2,7 +2,7 @@
 date: 2022-05-12 12:00:00 +0900
 title: 함부로 사랑이라고 말하는 사춘기의 사랑
 excerpt: 안정민의 소녀의 세계를 보고
-categories: movie
+categories: review
 ---
 
 **주의**: 이 글은 영화의 스포일러를 포함할 수도 있고 아닐 수도 있습니다.

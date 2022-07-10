@@ -2,9 +2,7 @@
 date: 2022-01-27 23:00:00 +0900
 title: 우리는 더 나은 사회에서 살고 있을까?
 excerpt: 한병철의 피로사회를 읽고
-# header:
-#     overlay_image: https://user-images.githubusercontent.com/59322692/147387245-c06d4f6b-dd5f-471e-be5d-fa2a3caa3266.png
-categories: diary book
+categories: review
 ---
 
 ## 과거와는 다른 현대사회

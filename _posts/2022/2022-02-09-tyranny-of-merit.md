@@ -2,7 +2,7 @@
 date: 2022-02-09 14:00:00 +0900
 title: 능력주의가 양극화의 주범이라면
 excerpt: 마이클 샌델의 공정하다는 착각을 읽고
-categories: diary book
+categories: review
 ---
 
 "정의란 무엇인가" 베스트셀러의 저자, 마이클 샌델의 책이다. 이 책 또한 한양대 도서관에

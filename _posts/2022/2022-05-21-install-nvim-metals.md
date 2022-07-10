@@ -2,10 +2,10 @@
 date: 2022-05-21 15:00:00 +0900
 title: Vim으로 Scala 3 개발환경 구축하기
 excerpt: 스칼라 2.x 로 개발할 때가 참 편했었지
-categories: vim scala
 header:
   overlay_image: https://imgur.com/ZxQ6HvB.png
   caption: "&copy; [**Scala**](hhttps://www.scala-lang.org)"
+categories: dev
 ---
 
 ## Scala 3를 인식 못하는 문제
