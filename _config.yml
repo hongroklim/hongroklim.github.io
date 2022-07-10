@@ -1,0 +1,45 @@
+title: Hongrok Lim
+description: >-
+  Interests in Productivity | Scalability
+
+baseurl: ""
+url: "https://hongroklim.github.io"
+
+# Theme
+remote_theme: jekyll/minima
+minima:
+  skin: classic # classic, dark, solarized, solarized-dark
+
+# Author
+author:
+  name: "Hongrok Lim"
+  github: "hongroklim"
+  email: "hongrr123@hanyang.ac.kr"
+
+header_pages:
+  - "_pages/cv.md"
+  - "_pages/projects.md"
+  - "_pages/tech-blog.md"
+  - "blog/index.html"
+
+collections:
+  projects:
+    output: true
+
+show_excerpts: true
+
+paginate: 5
+paginate_path: "/blog/page:num"
+
+plugins:
+  - jekyll-paginate
+  - jekyll-include-cache
+  - jekyll-feed
+
+include:
+  - _pages
+  - _projects
+
+sass:
+  sass_dir: _sass
+  style: compressed
