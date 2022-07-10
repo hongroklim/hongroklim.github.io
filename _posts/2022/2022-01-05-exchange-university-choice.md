@@ -2,9 +2,7 @@
 date: 2022-01-05 07:00:00 +0900
 title: 교환학생을 어디로 떠나볼까요
 excerpt: 90개가 넘는 해외대학 중 나만의 우선순위 정하기
-# header:
-#     overlay_image: https://user-images.githubusercontent.com/59322692/147387245-c06d4f6b-dd5f-471e-be5d-fa2a3caa3266.png
-categories: diary exchange
+categories: diary
 ---
 
 ## 호외요 호외

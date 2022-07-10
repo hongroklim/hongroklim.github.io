@@ -2,7 +2,7 @@
 date: 2022-02-15 21:00:00 +0900
 title: 성별 임금격차의 진짜 이유
 excerpt: 클라우디아 골딘의 커리어 그라고 가정을 읽고
-categories: book
+categories: review
 ---
 
 대졸 남성이 평균임금으로 1달러를 받는다면 대졸 여성은 70센트 정도

@@ -2,10 +2,10 @@
 date: 2022-06-10 19:00:00 +0900
 title: 끝나버린 막내 역할
 excerpt: 드라마 멜로가 체질을 보고
-categories: drama
 header:
   overlay_image: https://i.imgur.com/AmtUwX8.jpg
   caption: "&copy; [**JTBC**](https://tv.jtbc.joins.com/melodramatic)"
+categories: review
 ---
 
 **주의**: 이 글은 드라마의 스포일러를 포함할 수도 있고 아닐 수도 있습니다.

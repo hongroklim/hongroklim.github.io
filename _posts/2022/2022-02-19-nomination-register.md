@@ -2,7 +2,7 @@
 date: 2022-02-19 16:00:00 +0900
 title: 싱가포르에서 처음 연락이 왔다
 excerpt: 메일이 도착한걸 보니 신청할 때 오타는 안 났나보네
-categories: exchange
+categories: diary 
 ---
 
 ## 갑자기 분위기 싱가포르

@@ -2,7 +2,7 @@
 date: 2022-05-14 17:00:00 +0900
 title: 이게 얼마만에 예약해보는 항공권이야
 excerpt: 마음만은 벌써 한국을 떠난지 오래이지만
-categories: exchange
+categories: diary
 ---
 
 5월 중순에 웰컴 패키지를 보내주기로 했는데 아직 답이 없다. 개강이 딱 성수기라
