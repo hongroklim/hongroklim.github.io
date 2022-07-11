@@ -103,7 +103,7 @@ public class GetNameFunc implements Function<User, String> {
 인터페이스 수준에서 이미 구현이 된
 [**Default Methods**](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html) 이다. 
 그러니 "구현해야 할 메서드가 하나뿐인" 이라고 하는 것이 좀 더 정확하다.
-{: .notice--info}
+{: .notice}
 
 ## Lambda는 또 뭐지
 
@@ -179,7 +179,7 @@ private List<String> getAdminNames(){
 
 **순수함수?** : 어떤 함수에 같은 파라미터를 전달했다면 항상 같은 값을 반환하면서, 외부에 변화를 일으키지 않는 함수이다.
 그러므로 언제 어떻게 이 함수를 다루던 지 간에, 같은 결과를 얻을 수 있다.
-{: .notice--info}
+{: .notice}
 
 이처럼 하나의 문제를 여러 함수로 나누어서 해결하는 사고가 함수형 프로그래밍이라고 할 수 있다.
 시작은 Stream 메서드였지만, 어느새 다른 차원의 생각을 하고 있는 중이다.

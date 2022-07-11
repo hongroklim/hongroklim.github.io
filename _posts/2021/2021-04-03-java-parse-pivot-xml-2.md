@@ -190,7 +190,7 @@ public abstract class AbstractPivotParser<E> {
 **convert가 InputSource를 반환하지 않는 이유** : InputSource는 SAX 패키지에만 국한되므로 좀 더 보편적인
 InputStream으로 변환할 때가 쉬울 거라 생각했다. 그리고 InputSource 생성자에 InputStream을 받을 수 있으니
 부모 객체 입장에서도 상관없다.
-{: .notice--info}
+{: .notice}
 
 ### PivotStringParser 외
 
