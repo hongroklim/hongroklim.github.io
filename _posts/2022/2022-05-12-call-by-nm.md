@@ -6,7 +6,7 @@ categories: review
 ---
 
 **주의**: 이 글은 영화의 스포일러를 포함할 수도 있고 아닐 수도 있습니다.
-{: .notice--warning}
+{: .notice}
 
 **사랑 주제의 영화 과제 특집**
 

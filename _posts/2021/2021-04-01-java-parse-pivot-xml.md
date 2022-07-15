@@ -68,7 +68,7 @@ java.lang.NoClassDefFoundError: oracle/xdb/XMLType
 
 **참고** : XMLType으로 다루고 싶다면 [Oracle 홈페이지](https://www.oracle.com/database/technologies/jdbc-upc-downloads.html)
 에서 `xdb6.jar`를 다운로드 받아 라이브러리에 추가하면 위의 문제는 해결된다.
-{: .notice--info}
+{: .notice}
 
 ### CLOB, BLOB 타입
 
@@ -130,7 +130,7 @@ XML을 다루는 여러 라이브러리들이 있는데, 그 중 JDK에 포함�
 **DefaultHandler의 역할** : 사실 XMLReader에겐 `EntityResolver`, `DTDHandler`, `ContentHandler`, `ErrorHandler` 총 4가지의
 Handler가 필요하다. `DefaultHandler`는 이 4가지 인터페이스를 모두 구현하는 객체이며, 모든 메서드는 아무 동작을 수행하지 않는다. 모든 Handler
 인스턴스를 만들 필요 없이 `DefaultHandler`를 상속받아 필요한 메서드만 `@Override`해서 XMLReader의 4가지 Handler에 담으면 된다.
-{: .notice--info}
+{: .notice}
 
 ### PivotRowHandler
 
@@ -256,7 +256,7 @@ public class PivotXMLReader {
 **XMLReader가 SingleTon이 아닌 이유** : Thread-Safe하지 않기 때문이다. XMLReader의 주석을 참고하자.\
 `All SAX interfaces are assumed to be synchronous: the parse methods must not return until parsing is complete,
 and readers must wait for an event-handler callback to return before reporting the next event.`
-{: .notice--info}
+{: .notice}
 
 ## 한번 활용해보자
 

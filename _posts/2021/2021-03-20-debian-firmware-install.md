@@ -21,7 +21,7 @@ categories: dev
 [데비안 설치가이드](https://www.debian.org/releases/stable/i386/install.pdf.ko) 를 꼼꼼이 읽던 중 내 상황인 것 같은 부분을 발견했다.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/111873258-cc615380-89d2-11eb-9b65-dcbd6f6caf60.png"
+  <img src="https://i.imgur.com/bGS6M9F.png"
        alt="content_01">
   <figcaption>6.4 없는 펌웨어 읽어들이기&emsp;/&emsp;<a href="https://www.debian.org/releases/stable/i386/install.pdf.ko">출처 : 데비안 GNU/리눅스 설치 안내서 69p</a></figcaption>
 </figure>

@@ -18,7 +18,7 @@ Ethereum에서 Contract를 한다는 것은 ether가 왔다 갔다 하는 것이
 있는 것이 바로 Account이다. Account를 쉽게 관리할 수 있도록 하는 *Wallet*을 통해 나의 Account를 만들어보자.
 
 **Ether** : 이더리움의 화폐단위. 1 ether, 1 ETH, Ξ1, &#9830;1 모두 같은 단위를 가리킨다. 1 ether는 10<sup>18</sup> wei 라는 단위까지 쪼갤 수 있다.
-{: .notice--info}
+{: .notice}
 
 지금 사용할 Wallet은 브라우저(Chrome이나 Firefox 등) extension 형태인 [**MetaMask**](https://metamask.io/) 이다. 검색하여 설치하자.
 그리고 검색할 때 화폐를 다루는 용도이니 리뷰와 다운로드 수를 확인하여 가짜가 아닌지 주의하자.
@@ -79,14 +79,14 @@ Test Network는 Mainnet과는 별개로, 부담없이 이더리움을 시험할 
 * [https://faucet.dimensions.network](https://faucet.dimensions.network)
 
 **참고** : 이 글을 작성할 당시에는 https://faucet.metamask.io 가 접속이 안 되고 있다. 나머지는 정상적으로 작동한다.
-{: .notice--warning}
+{: .notice}
 
 이 중 아무 Faucet에나 들어가서 내 Account 주소를 입력하면 Test Network 상의 ether가 이체된다. 이게 말로만 듣던 돈 복사인가.
 위의 모든 링크들을 포함해 대부분의 Faucet들은 ether를 이체하는 데 제한이 있다. account별 또는 request IP 별로 사용 주기를 관리하니
 마구 찍어낼 수는 없다. 그래도 10<sup>18</sup> 분의 1로 쪼개어 사용할 수 있으니 1 ether만 있어도 시험삼아 하기에는 아마 충분할 듯 싶다.
 
 **Account 주소** : MetaMask에서 화면 위쪽의 *Account1 0xCBA2...e071*이라 되어있는 부분을 클릭하면 자신의 Account 주소가 복사된다.
-{: .notice--info}
+{: .notice}
 
 ## Transaction 조회하기
 
@@ -176,7 +176,7 @@ compile은 *Solidty Compiler*(왼쪽 위에서 2번째 아이콘)에서 *Compile
 
 **gas** : ethereum의 blockchain 위에 contract를 올릴 때 이것이 유효한 프로그램인지 validation 을 받아야만 한다.
 확인을 부탁하는 차원에서 ethereum network 상에 gas라는 명목으로 ether를 지불하는 것이다.
-{: .notice--info}
+{: .notice}
 
 배포가 완료되면 *Deployed Contracts* 아래로 `Faucet`이 나타날 것이다. 이제 이 Contract는 blockchain network에 기록이 완료되었다.
 copy icon을 눌러 address를 복사한 뒤 Etherscan에서 나의 contract를 볼 수 있다.

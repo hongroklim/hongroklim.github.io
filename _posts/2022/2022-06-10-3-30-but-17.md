@@ -9,7 +9,7 @@ categories: review
 ---
 
 **주의**: 이 글은 드라마의 스포일러를 포함할 수도 있고 아닐 수도 있습니다.
-{: .notice--warning}
+{: .notice}
 
 **20대 전후 인간관계 특집**
 

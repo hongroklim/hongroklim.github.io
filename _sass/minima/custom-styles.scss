@@ -55,15 +55,29 @@
   }
 
   figure {
+    margin: $spacing-unit 0;
+
     img {
+      margin: auto;
       border: 1px solid $border-color-02;
       border-radius: 5px;
       min-height: $spacing-unit * 3;
     }
+
+    figcaption {
+      margin: auto;
+      max-width: 75%;
+      text-align: center;
+    }
   }
 
-  // TODO remove --## tags
-  .notice--warning {
+  table {
+    th, td {
+      padding: 5px;
+    }
+  }
+
+  p.notice {
     margin-bottom: $spacing-unit;
     border: 1px solid $border-color-02;
     border-radius: 5px;

@@ -67,8 +67,8 @@ column 이름(위에서 보면 **@** 역할)만 정하면 될 줄 알았는데, 
 *그냥 @ column 이름만 가지고 알아서 값을 찾아가면 안 되나?* 하는 생각이었지만, PIVOT으로 만들 column을 먼저 만드는 이유를 깨달았다.
 DBMS는 쿼리 실행 전 SQL Parser를 거치는데, 이 과정에서 문법(Syntax)상의 확인과 의미(Semantic)상의 확인을 한다.
 
-<figure style="width:60%">
-  <img src="https://docs.oracle.com/database/121/TGSQL/img/GUID-476CEA3E-17B5-454F-AD82-CF3FC19D81B1-default.gif"
+<figure>
+  <img src="https://i.imgur.com/b9YTuS5.gif"
        alt="content_01">
   <figcaption>SQL Parser 진행과정&emsp;/&emsp;<a href="https://docs.oracle.com/database/121/TGSQL/tgsql_sqlproc.htm">출처 : docs.oracle.com</a></figcaption>
 </figure>

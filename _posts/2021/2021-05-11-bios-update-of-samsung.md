@@ -58,7 +58,7 @@ exe 파일 안에 펌웨어가 있을 것 같다는 생각이 들었다. 그래�
 **패킷 분석기** : 네트워크에서 전달되는 트래픽을 가로채거나 기록할 수 있는 프로그램.
 이를 사용하여 통신내용을 몰래 도청하는 행위를 **스니핑(sniffing)** 이라고 한다.
 <a href="https://ko.wikipedia.org/wiki/%ED%8C%A8%ED%82%B7_%EB%B6%84%EC%84%9D%EA%B8%B0">출처 : 위키백과</a>
-{: .notice--info}
+{: .notice}
 
 <figure>
   <img src="https://user-images.githubusercontent.com/59322692/117841752-41a52280-b2b8-11eb-829e-f0f590b95516.png"

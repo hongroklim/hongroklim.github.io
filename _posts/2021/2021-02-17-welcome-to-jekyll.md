@@ -41,21 +41,6 @@ categories: linux debian
 {: .notice}
 ```
 
-**Notice Primary** : This is notice--primary block
-{: .notice--primary}
-
-**Notice Info** : This is notice--info block
-{: .notice--info}
-
-**Notice Warning** : This is notice--warning block
-{: .notice--warning}
-
-**Notice Success** : This is notice--success block
-{: .notice--success}
-
-**Notice Danger** : This is notice--danger block
-{: .notice--danger}
-
 ## 이미지 캡션 달기
 
 <figure>
@@ -123,7 +108,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 Settings that affect your entire site can be changed in [Jekyll's configuration file](https://jekyllrb.com/docs/configuration/): `_config.yml`, found in the root of your project. If you don't have this file you'll need to copy or create one using the theme's [default `_config.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml) as a base.
 
 **Note:** for technical reasons, `_config.yml` is NOT reloaded automatically when used with `jekyll serve`. If you make any changes to this file, please restart the server process for them to be applied.
-{: .notice--warning}
+{: .notice}
 
 Take a moment to look over the configuration file included with the theme. Comments have been added to provide examples and default values for most settings. Detailed explanations of each can be found below.
 

@@ -37,7 +37,7 @@ public Document parseXML(String pathname) throws Exception {
 `DocumentBuilderFactory`는 Thread-Safe하다. (test : [junit](https://github.com/rokong/hello-spring/blob/master/src/test/java/com/rokong/xpath/FileIOTest.java)).
 하지만 `documentBuilder`는 Thread-Unsafe 하다. (출처 : [stackoverflow](https://stackoverflow.com/questions/12455602/is-documentbuilder-thread-safe))
 둘 다 static으로 하고 싶었지만, `documentBuilder`는 인스턴스로 해야만 한다.
-{: .notice--info}
+{: .notice}
 
 ## XPath로 원하는 element 찾기
 
@@ -159,4 +159,4 @@ whitespace에 의한 수정인지 아닌지를 확인해봐야 하는 번거로�
 테스트 코드는
 [GitHub](https://github.com/rokong/hello-spring/blob/master/src/test/java/com/rokong/xpath/XPathTest.java)
 에서 확인할 수 있다.
-{: .notice--info}
+{: .notice}
