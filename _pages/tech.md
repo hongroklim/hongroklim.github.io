@@ -2,7 +2,7 @@
 layout: page
 title: Tech Blog
 description: 개발과 관련된 글만 간추렸습니다.
-permalink: /tech-blog/
+permalink: /tech/
 ---
 
 <div class="tags-wrapper">
