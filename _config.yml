@@ -1,6 +1,6 @@
 title: Hongrok Lim
 description: >-
-  Interests in Productivity | Scalability
+  Interests in Productivity
 
 baseurl: ""
 url: "https://hongroklim.github.io"
@@ -8,7 +8,7 @@ url: "https://hongroklim.github.io"
 # Theme
 remote_theme: jekyll/minima
 minima:
-  skin: classic # classic, dark, solarized, solarized-dark
+  skin: classic-dark # classic, dark, solarized, solarized-dark
 
 # Author
 author:
@@ -19,7 +19,7 @@ author:
 header_pages:
   - "_pages/cv.md"
   - "_pages/projects.md"
-  - "_pages/tech-blog.md"
+  - "_pages/tech.md"
   - "blog/index.html"
 
 collections:

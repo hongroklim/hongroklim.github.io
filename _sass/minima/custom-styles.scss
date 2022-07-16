@@ -1,8 +1,10 @@
-// Placeholder to allow defining custom styles that override everything else.
-// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
-
 // Custom Footer
 .site-footer {
+  .footer-col-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .contact-list {
     margin-bottom: 0;
 
@@ -22,13 +24,19 @@
       }
     }
   }
-
-  .footer-col:last-child {
+  
+  .button-list {
+    list-style: none;
     text-align: right;
 
-    a {
-      padding: $spacing-unit;
+    li {
+      margin: $spacing-unit / 2;
       font-size: $base-font-size;
+
+      a {
+        padding: $spacing-unit / 2;
+        cursor: pointer;
+      }
     }
   }
 }
