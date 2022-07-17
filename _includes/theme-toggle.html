@@ -19,7 +19,7 @@ let isDarkTheme = false;
 const setTheme = (isDark) => {
   // Dataset and Label
   document.documentElement.dataset.theme = isDark ? 'dark' : 'light';
-  document.getElementById('btn_theme').textContent = isDark ? 'Light' : 'Dark';
+  document.getElementById('btn_theme').textContent = isDark ? 'Light ☼' : 'Dark ◘';
 
   // Meta tag
   const themeColor = getComputedStyle(document.documentElement)

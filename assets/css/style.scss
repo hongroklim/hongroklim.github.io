@@ -41,7 +41,7 @@ $site-title-color:      var(--site-title-color,$site-title-color);
 
 $text-color:            var(--text-color,$text-color);
 $background-color:      var(--background-color,$background-color);
-$code-background-color: var(--background-color,$code-background-color);
+$code-background-color: var(--code-background-color,$code-background-color);
 
 $link-base-color:       var(--link-base-color,$link-base-color);
 $link-visited-color:    var(--link-visited-color,$link-visited-color);
@@ -88,6 +88,7 @@ html[data-theme='dark'] {
 }
 
   {% else %}
-    @import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
-    @import "minima/initialize";
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
 {% endcase %}
