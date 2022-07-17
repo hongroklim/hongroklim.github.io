@@ -1,4 +1,8 @@
-// Custom Footer
+body {
+  -webkit-transition: background-color 0.5s ease-in;
+  transition: background-color 0.5s ease-in;
+}
+
 .site-footer {
   .footer-col-wrapper {
     display: flex;
@@ -60,10 +64,17 @@
   
   p {
     line-height: 1.8;
+
+    &.notice {
+      margin-bottom: $spacing-unit;
+      border: 1px solid $border-color-02;
+      border-radius: 5px;
+      padding: 10px;
+    }
   }
 
   figure {
-    margin: $spacing-unit 0;
+    margin: ($spacing-unit*1.5) 0;
 
     img {
       margin: auto;
@@ -74,7 +85,7 @@
 
     figcaption {
       margin: auto;
-      max-width: 75%;
+      max-width: 80%;
       text-align: center;
     }
   }
@@ -84,13 +95,12 @@
       padding: 5px;
     }
   }
-
-  p.notice {
+  
+  ul, ol {
+    margin-top: $spacing-unit;
     margin-bottom: $spacing-unit;
-    border: 1px solid $border-color-02;
-    border-radius: 5px;
-    padding: 10px;
   }
+
 }
 
 .post-footer {

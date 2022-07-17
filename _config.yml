@@ -6,9 +6,9 @@ baseurl: ""
 url: "https://hongroklim.github.io"
 
 # Theme
-remote_theme: jekyll/minima
+remote_theme: jekyll/minima@ffdb321
 minima:
-  skin: classic-dark # classic, dark, solarized, solarized-dark
+  skin: classic-dark # classic, dark, solarized-light, solarized-dark, solarized
 
 # Author
 author:
