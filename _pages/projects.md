@@ -7,6 +7,7 @@ permalink: /projects/
 
 WIP
 
+{% comment %}
 * AI/DL
   * Sentiment Analysis (Pandas, Tensorflow)
   * Recycling Assistant (SSD MobileNet, OpenCV)
@@ -18,13 +19,15 @@ WIP
   * Observatory (Scala, Spark)
   * DBMS in C++ (B+ Tree, Buffer, Locking, CC)
   * xv6-public (OS)
+{% endcomment %}
 
-<br>
-
-{% for project in site.projects %}
-  <h2>
+<ul>
+  {% assign projects = site.projects | where_exp:"e", "e.order >= 0" | sort: "order" %}
+  {% for project in projects %}
+    <li>
     <a href="{{ project.url }}">
       {{ project.title }}
     </a>
-  </h2>
-{% endfor %}
+    </li>
+  {% endfor %}
+</ul>

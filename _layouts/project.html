@@ -1,14 +1,27 @@
 ---
 layout: default
 ---
-<article class="post">
+<article class="post post-project">
 
   <header class="post-header">
+    <p class="post-meta" itemprop="keywords">{{ page.spec }}</p>
     <h1 class="post-title">{{ page.title | escape }}</h1>
+    <p class="post-desc" itemprop="description">
+      {{ page.excerpt }}
+      {% if page.github %}
+        <a rel="me" href="{{ page.github }}" target="_blank" title="Github link">
+          <svg class="svg-icon grey">
+            <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use>
+          </svg> Github
+        </a>
+      {% endif %}
+    </p>
+    {% comment %}
+      <img class="post-image" src="{{ page.image }}" alt="{{page.title | escape}}-header-image" />
+    {% endcomment %}
   </header>
 
-  <div class="post-content">
-    This is project template
+  <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
 
