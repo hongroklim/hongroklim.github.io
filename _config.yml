@@ -1,4 +1,4 @@
-title: Hongrok Lim
+title: Hong-ROK Lim
 description: >-
   Interests in Productivity
 
@@ -12,14 +12,14 @@ minima:
 
 # Author
 author:
-  name: "Hongrok Lim"
+  name: "Hong Rok Lim"
   github: "hongroklim"
   email: "hongrr123@hanyang.ac.kr"
 
 header_pages:
   # - "_pages/cv.md"
-  # - "_pages/projects.md"
   - "_pages/tech.md"
+  - "_pages/projects.md"
   # - "blog/index.html"
 
 collections:
