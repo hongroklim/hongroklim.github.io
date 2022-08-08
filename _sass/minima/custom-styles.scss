@@ -186,6 +186,41 @@ body {
 
 }
 
+.projects-wrapper {
+  ul {
+    margin-left: 0;
+    list-style: none;
+  }
+
+  .item {
+    margin-bottom: $spacing-unit * 2;
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    a {
+      color: $text-color;
+      text-decoration: none;
+      
+      &>span {
+        display: block;
+      }
+
+      .spec {
+        font-size: $small-font-size;
+      }
+
+      .title {
+        color: $link-base-color;
+        font-size: $base-font-size * 1.75;
+        font-weight: $base-font-weight * 1.25;
+      }
+    }
+  }
+
+}
+
 // (in Project)
 .post-project {
   .post-header {
@@ -195,3 +230,5 @@ body {
     }
   }
 }
+
+

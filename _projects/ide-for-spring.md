@@ -2,7 +2,7 @@
 layout: project
 title: IDE for Spring
 spec: DevOps/Docker
-excerpt: 스프링 웹개발에 필요한 모든 기능들을 컨테이너 기반으로 구현
+excerpt: 스프링 웹개발에 필요한 모든 기능들을 컨테이너 기반으로 관리
 github: https://github.com/hongroklim/ide-for-spring
 image: https://logo.github.com
 order: 2
@@ -38,12 +38,12 @@ order: 2
   * 무료 크레딧 소진 시 다른 [CSP](https://en.wikipedia.org/wiki/Category:Cloud_computing_providers)
   를 이용할 때마다 개발환경 다시 구축
   * 휴가 때는 개인 노트북을 이용함으로 일관된 개발환경 설정 필요
-1. **Task**
+1. **Task** <u>반복적인 작업을 코드화</u>
   * 스프링 웹개발에 필요한 서비스들을 구동하고 사용할 수 있어야 함
   * 간단한 명령어로 개발환경을 한 번에 설정할 수 있어야 함
-1. **Action**
-  * Dockerfile을 통해 일관된 환경 구축 및 프로그램 설치
-  * Docker Compose를 통해 컨테이너 설정값 관리
-1. **Result**
+1. **Action** <u>Docker 기반으로 구현</u>
+  * [Dockerfile](https://docs.docker.com/engine/reference/builder/)을 통해 일관된 환경 구축 및 프로그램 설치
+  * [Docker Compose](https://docs.docker.com/compose/)를 통해 컨테이너 설정값 관리
+1. **Result** <u>환경구축 자동화</u>
   * 개발 환경 설정의 번거로움 생략
   * 운영 환경에 관계없이 일관된 개발환경 구축 가능

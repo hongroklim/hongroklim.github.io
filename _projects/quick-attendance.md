@@ -2,7 +2,7 @@
 layout: project
 title: Quick Attendance
 spec: Javascript/React
-excerpt: 수업조교들이 출석체크를 쉽고 빠르게 할 수 있는 모바일 웹서비스 
+excerpt: 출석체크를 쉽고 빠르게 할 수 있는 모바일 웹서비스 
 github: https://github.com/hongroklim/quick-atnd
 image: https://github.com/hongroklim/quick-atnd/raw/main/public/logo.png
 order: 0

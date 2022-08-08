@@ -5,8 +5,6 @@ description: 배움과 성장을 경험했던 순간들입니다.
 permalink: /projects/
 ---
 
-WIP
-
 {% comment %}
 * AI/DL
   * Sentiment Analysis (Pandas, Tensorflow)
@@ -21,13 +19,17 @@ WIP
   * xv6-public (OS)
 {% endcomment %}
 
-<ul>
-  {% assign projects = site.projects | where_exp:"e", "e.order >= 0" | sort: "order" %}
-  {% for project in projects %}
-    <li>
-    <a href="{{ project.url }}">
-      {{ project.title }}
-    </a>
-    </li>
-  {% endfor %}
-</ul>
+<div class="projects-wrapper">
+  <ul>
+    {% assign projects = site.projects | where_exp:"e", "e.order >= 0" | sort: "order" %}
+    {% for project in projects %}
+      <li class="item">
+        <a href="{{ project.url }}">
+          <span class="spec">{{ project.spec }}</span>
+          <span class="title">{{ project.title }}</span>
+          <span class="excerpt">{{ project.excerpt }}</span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
