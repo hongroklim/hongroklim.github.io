@@ -1,8 +1,8 @@
 ---
 layout: project
 title: Sentiment Analysis
-spec: AI/ML
-excerpt: 머신러닝을 활용한 화자의 감정 분석
+spec: AI/DL
+excerpt: 머신러닝을 활용한 화자의 감정 상태 분석
 github: https://github.com/2021hyt6-sentimentanalysis/sentiment_analysis_nb
 image: https://logo.github.com
 order: 3

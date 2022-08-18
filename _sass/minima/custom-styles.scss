@@ -201,6 +201,7 @@ body {
 
     a {
       color: $text-color;
+      text-align: center;
       text-decoration: none;
       
       &>span {
@@ -214,7 +215,6 @@ body {
       .title {
         color: $link-base-color;
         font-size: $base-font-size * 1.75;
-        font-weight: $base-font-weight * 1.25;
       }
     }
   }
