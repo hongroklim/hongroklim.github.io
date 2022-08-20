@@ -217,6 +217,12 @@ body {
         font-size: $base-font-size * 1.75;
       }
     }
+
+    .separator {
+      margin: auto;
+      margin-top: $spacing-unit;
+      width: $spacing-unit;
+    }
   }
 
 }

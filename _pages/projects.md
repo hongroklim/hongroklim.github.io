@@ -29,6 +29,9 @@ permalink: /projects/
           <span class="title">{{ project.title }}</span>
           <span class="excerpt">{{ project.excerpt }}</span>
         </a>
+        {% unless forloop.last %}
+          <hr class="separator" />
+        {% endunless %}
       </li>
     {% endfor %}
   </ul>
