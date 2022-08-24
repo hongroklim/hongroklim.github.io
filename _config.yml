@@ -1,4 +1,4 @@
-title: Hong-ROK Lim
+title: Hong-ROK
 description: >-
   Interests in Productivity
 
@@ -6,21 +6,21 @@ baseurl: ""
 url: "https://hongroklim.github.io"
 
 # Theme
-remote_theme: jekyll/minima@ffdb321
+remote_theme: jekyll/minima
 minima:
-  skin: classic-dark # classic, dark, solarized-light, solarized-dark, solarized
+  skin: classic-dark # classic, dark, solarized, solarized-dark
 
 # Author
 author:
-  name: "Hong Rok Lim"
+  name: "Hong-Rok Lim"
   github: "hongroklim"
   email: "hongrr123@hanyang.ac.kr"
 
 header_pages:
-  # - "_pages/cv.md"
-  - "_pages/tech.md"
+  - "_pages/cv.md"
   - "_pages/projects.md"
-  # - "blog/index.html"
+  - "_pages/tech.md"
+  - "blog/index.html"
 
 collections:
   projects:
@@ -29,8 +29,7 @@ collections:
 show_excerpts: true
 
 paginate: 5
-# paginate_path: "/blog/page:num"
-paginate_path: "/page:num"
+paginate_path: "/blog/page:num"
 
 plugins:
   - jekyll-paginate
