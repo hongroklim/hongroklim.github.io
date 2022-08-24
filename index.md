@@ -4,7 +4,7 @@ layout: page
 
 <div class="intro-container">
   <div class="header">
-    <span class="title">Hongrok Lim</span><br>
+    <span class="title">Hongrok Lim</span>
     <span class="sub">임홍록</span>
   </div>
 

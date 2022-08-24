@@ -29,7 +29,6 @@ permalink: /cv/
   <span>Distributed Computing</span>
   <span>Blockchain</span>
   <span>Business Intelligence</span>
-  <span>Web</span>
 </div>
 
 <h2>Education</h2>
@@ -53,6 +52,7 @@ permalink: /cv/
   </div>
   <div class="content">
     <div class="loc">Nanyang Technological University, Singapore</div>
+    <div class="ul"><b>Programme</b>: Computer Engineering</div>
   </div>
 </div>
 
