@@ -39,7 +39,7 @@ permalink: /cv/
     <span class="time">Mar 2018 - Present</span>
   </div>
   <div class="content">
-    <div class="body">B.S.in Information Systems, Computer Science</div>
+    <div class="body">B.S. in Information Systems, Computer Science</div>
   </div>
 </div>
 

@@ -2,7 +2,7 @@
 date: 2022-08-18 17:00:00 +0900
 title: NeoVim으로 Java 개발환경 구축하기
 excerpt: 개발할 때 마우스 쓸 일이 점점 없어지는 중이다
-categories: dev
+categories: java
 ---
 
 ## 오랜만에 Java를 쓸 차례

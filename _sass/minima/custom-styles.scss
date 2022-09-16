@@ -77,10 +77,14 @@ body {
     margin: ($spacing-unit*1.5) 0;
 
     img {
+      min-height: $spacing-unit * 3;
       margin: auto;
       border: 1px solid $border-color-02;
       border-radius: 5px;
-      min-height: $spacing-unit * 3;
+
+      @media screen and (min-width: $on-medium) {
+        max-width: $on-medium - 50px;
+      }
     }
 
     figcaption {
