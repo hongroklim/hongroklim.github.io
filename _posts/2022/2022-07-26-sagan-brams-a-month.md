@@ -9,6 +9,12 @@ categories: review
 
 ### 조제, 호랑이, 그리고 물고기들
 
+<figure>
+  <img src="https://i.imgur.com/mK6RCGA.jpg"
+       alt="jose_tiger_fish">
+  <figcaption>할머니가 주워온 책들을 읽다보니 쿠미코는 방구석 지성인이 되었다.&emsp;/&emsp;<a href="https://movie.daum.net/moviedb/contents?movieId=40355">출처 : 다음 영화</a></figcaption>
+</figure>
+
 이누도 잇신 감독의 영화 ‘조제, 호랑이 그리고 물고기들’ (2003)에는 여자 주인공
 쿠미코는 자기 자신을 ‘조제’라고 부른다. 조제라는 이름은 소설책 주인공에게서
 따왔다고 한다. 그 소설의 내용이 무엇인지는 몰라도 영화를 보는 데는 지장이
@@ -18,6 +24,12 @@ categories: review
 ### 프랑수아즈 사강
 
 > 타인에게 피해를 주지 않는 한, 나는 나를 파괴할 권리가 있다.
+
+<figure>
+  <img src="https://i.imgur.com/oY4nQEV.jpg"
+       alt="sagan_with_cigarette">
+  <figcaption>저 손 끝의 담배에서 느껴지는 사강의 아우라.&emsp;/&emsp;<a href="http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQluc_QYaRtr-fzLZIRRtoFd08nsckQlllw661RmUbhrAQrbbvZWqHZn7YCEknMefXd">출처 : Getty Images</a></figcaption>
+</figure>
 
 작가의 이름을 어디서 많이 들어봤나 했는데, 바로 저 명언을 남긴 사람이었다.
 먀약 소지 혐의로 기소된 상황에서 남긴 말이라니, 뭔지는 모르겠지만 너무
@@ -45,6 +57,12 @@ ENA)로 핫한 박은빈 주연의 ‘브람스를 좋아하세요?’ (2022, SB
 얼마 안 되었기 때문에, 그녀는 아직 그에 대한 호불호나 관계의 수위를 결정하지
 못 했다. 결국 저 말줄임표(…)에 있는 의미는 브람스나 시몽이나 자기 자신 이외의
 것을 사랑하는 일에 대한 환기를 의미한다.
+
+<figure>
+  <img src="https://i.imgur.com/tdCTPNw.jpg"
+       alt="brams_bookcover">
+  <figcaption>제목에서 저 말줄임표가 핵심이다.&emsp;/&emsp;<a href="http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQluc_QYaRtr-fzLZIRRtoFd08nsckQlllw661RmUbhrAQrbbvZWqHZn7YCEknMefXd">출처 : Getty Images</a></figcaption>
+</figure>
 
 이건 책 뒤에 있는 작품 해설에 나오는 TMI인데, 프랑스 사람들은 브람스를 별로 안
 좋아한다고 한다. 모짜르트 연주회였다면 그냥 초대해도 되는데, 호불호가 갈리는
@@ -81,6 +99,12 @@ ENA)로 핫한 박은빈 주연의 ‘브람스를 좋아하세요?’ (2022, SB
 
 ## 한달 후, 일년 후
 
+<figure>
+  <img src="https://i.imgur.com/0lGclZw.jpg"
+       alt="a_month_bookcover">
+  <figcaption>조제가 좋아했던 그 책.&emsp;/&emsp;<a href=""https://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=354590897&sc.saNo=003002001>출처 : 인터파크도서</a></figcaption>
+</figure>
+
 ### 복잡한데 별거 없는 내용
 
 이 소설은 서로 얽힌 등장인물이 9명이나 되어서 조금은 복잡하다. 조제와 자크는
@@ -106,6 +130,12 @@ ENA)로 핫한 박은빈 주연의 ‘브람스를 좋아하세요?’ (2022, SB
 자유롭게 살 수 있을 정도이다. 그리고 그녀는 운전을 잘한다. 생전 속도감 있는
 드라이빙을 즐겼던 프랑수아즈 사강 본인이 투영되었는 지 모르겠지만, 조제는 아주
 빠른 속도에도 능숙하게 운전을 해내었다.
+
+<figure>
+  <img src="https://i.imgur.com/4FlI44N.jpg"
+       alt="jose_reading_a_book">
+  <figcaption>한달 후 일년 후 속편을 읽는 중인 조제.&emsp;/&emsp;<a href="https://movie.daum.net/moviedb/contents?movieId=40355">출처 : 다음 영화</a></figcaption>
+</figure>
 
 사랑에 관해서도 조제는 우상이 될 법 하다. 그녀는 이미 어린 남자친구가 있음에도
 열정적인 감정을 추구하려고 한다. 그렇다고 성급하게 이성관계를 만드는 것이
