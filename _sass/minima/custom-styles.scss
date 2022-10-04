@@ -96,6 +96,20 @@ body {
     }
   }
 
+  p.img-scroll {
+    width: 100%;
+    border: 1px solid $border-color-02;
+    overflow-x: auto;
+
+    img {
+      display: block;
+      max-width: unset;
+      min-height: $spacing-unit * 3;
+      max-height: $spacing-unit * 10;
+      margin: auto;
+    }
+  }
+
   table {
     th, td {
       padding: 5px;
@@ -111,6 +125,10 @@ body {
     }
   }
 
+}
+
+.home .pagination li a {
+  line-height: 1;
 }
 
 .post-footer {

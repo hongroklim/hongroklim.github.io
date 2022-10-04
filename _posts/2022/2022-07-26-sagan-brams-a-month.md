@@ -59,9 +59,9 @@ ENA)로 핫한 박은빈 주연의 ‘브람스를 좋아하세요?’ (2022, SB
 것을 사랑하는 일에 대한 환기를 의미한다.
 
 <figure>
-  <img src="https://i.imgur.com/tdCTPNw.jpg"
+  <img src="https://i.imgur.com/tdCTPNw.jpg?2"
        alt="brams_bookcover">
-  <figcaption>제목에서 저 말줄임표가 핵심이다.&emsp;/&emsp;<a href="http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQluc_QYaRtr-fzLZIRRtoFd08nsckQlllw661RmUbhrAQrbbvZWqHZn7YCEknMefXd">출처 : Getty Images</a></figcaption>
+  <figcaption>제목에서 저 말줄임표가 핵심이다.&emsp;/&emsp;<a href="http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788937461798">출처 : 교보문고</a></figcaption>
 </figure>
 
 이건 책 뒤에 있는 작품 해설에 나오는 TMI인데, 프랑스 사람들은 브람스를 별로 안
@@ -102,7 +102,7 @@ ENA)로 핫한 박은빈 주연의 ‘브람스를 좋아하세요?’ (2022, SB
 <figure>
   <img src="https://i.imgur.com/0lGclZw.jpg"
        alt="a_month_bookcover">
-  <figcaption>조제가 좋아했던 그 책.&emsp;/&emsp;<a href=""https://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=354590897&sc.saNo=003002001>출처 : 인터파크도서</a></figcaption>
+  <figcaption>조제가 좋아했던 그 책.&emsp;/&emsp;<a href="https://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=354590897&sc.saNo=003002001">출처 : 인터파크도서</a></figcaption>
 </figure>
 
 ### 복잡한데 별거 없는 내용
