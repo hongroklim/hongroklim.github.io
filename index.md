@@ -22,16 +22,7 @@ layout: page
   <div class="img-wrapper">
     <figure>
       <img src="/assets/image/profile/main.jpg" alt="main" />
-      <figcaption>@Tamarind Rooftop, NTU, Singapore / 2022.08.21</figcaption>
+      <figcaption>@Ubud, Bali, Indonesia / 2022.09.27</figcaption>
     </figure>
   </div>
 </div>
-
-{% comment %}
-TODO 포트폴리오는 나중에 작성해도 됨
-
-<ul>
-  <li>https://github.com/chesterhow/tale</li>
-  <li>https://www.jihyeleee.com/blog/third-designer-can-make-jekyll-blog/</li>
-</ul>
-{% endcomment %}
