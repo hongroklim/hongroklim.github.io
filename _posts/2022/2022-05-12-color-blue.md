@@ -27,6 +27,12 @@ categories: review
 이별로 이끄는 두 사람의 차이가 미녀와 야수처럼 크고 장대할 필요 없이 지극히
 현실적인 차이도 될 수 있음을 보여준다.
 
+<figure>
+  <img src="https://i.imgur.com/6O997pC.jpg"
+       alt="color_blue_poster">
+  <figcaption>가장 따뜻한 색, 블루 포스터. 영화 주제에서 머리 색깔은 크게 중요하지 않았던 것 같다. / <a href="https://movie.daum.net/moviedb/main?movieId=79172">출처 : 다음영화</a></figcaption>
+</figure>
+
 ## 영화 소개
 
 ‘가장 따뜻한 색, 블루’라는 영화는 레즈비언이 주인공으로 등장하는 프랑스
@@ -57,6 +63,12 @@ categories: review
 엠마는 불안정하다고 말할 수 있는 미술가의 길을 택한 것에서 볼 수 있듯 이상적인
 태도로 삶을 살아가고 있다.
 
+<figure>
+  <img src="https://i.imgur.com/yDdj6gc.jpg"
+       alt="color_blue_teacher">
+  <figcaption>유치원 선생님 아델. 일할 때는 매우 지루해보인다. / <a href="https://movie.daum.net/moviedb/main?movieId=79172">출처 : 다음영화</a></figcaption>
+</figure>
+
 ## 인간관계의 차이
 
 이러한 사회적 위치에서 비롯된 차이는 두 주인공의 인간관계에서도 대비가
@@ -73,6 +85,12 @@ categories: review
 수많은 사람들이 모일만큼 직업적으로도 폭넓은 관계를 맺고 있었다. 엠마의 파티와
 전시회에 찾아온 수많은 사람들 속에서 아델은 완전히 즐기지 못 한 채 어색한
 웃음만을 짓고 있을 뿐이었다.
+
+<figure>
+  <img src="https://i.imgur.com/4z81kAl.jpg"
+       alt="color_blue_party">
+  <figcaption>아델의 친구들이 모인 파티에서 소개를 받는 엠마. 서로의 클라스가 다름이 드러나는 대목 중 하나이다. / <a href="https://movie.daum.net/moviedb/main?movieId=79172">출처 : 다음영화</a></figcaption>
+</figure>
 
 ## 커밍아웃의 차이
 
@@ -91,6 +109,12 @@ categories: review
 있었다. 이와 같은 두 사람의 성향 차이는 그들의 인간관계 범위와 연관 지어
 생각해볼 수 있을 것이다.
 
+<figure>
+  <img src="https://i.imgur.com/DMGlW8v.jpg"
+       alt="color_blue_coming_out">
+  <figcaption>아델 만나기 전 엠마. 옆구리에 다른 애인을 끼고 다녔다. / <a href="https://movie.daum.net/moviedb/main?movieId=79172">출처 : 다음영화</a></figcaption>
+</figure>
+
 ## 사랑의 성숙함의 차이
 
 두 여자주인공을 이별로 이끈 두 번째 차이는 바로 서로가 생각하는 사랑의 의미
@@ -106,6 +130,12 @@ categories: review
 아델은 그저 자신이 교제했던 수많은 여성 중 하나일 뿐이며, 그저 어리고 귀여운
 소녀로 바라보았을 것이다. 상대방이 느끼는 그들의 존재감에 대한 차이는 이
 사랑이 영원하지 않을 것임을 증명하고 있었는지도 모른다.
+
+<figure>
+  <img src="https://i.imgur.com/FQ9anMi.jpg"
+       alt="color_blue_street">
+  <figcaption>퀴어축제에 나온 두 사람. 미숙한 아델을 엠마가 리드한다. / <a href="https://movie.daum.net/moviedb/main?movieId=79172">출처 : 다음영화</a></figcaption>
+</figure>
 
 ## 상대에 대한 태도의 차이
 
@@ -139,7 +169,13 @@ categories: review
 엠마는 ‘동상이몽’이라는 사자성어와 같이 같은 침실과 방 그리고 집을 공유하지만
 그들 머릿속에 있는 사랑은 서로 다른 것을 주고받고 있었다.
 
-## 차이를 넘어서는 어려움
+<figure>
+  <img src="https://i.imgur.com/dUoPPZV.jpg"
+       alt="color_blue_spagetti">
+  <figcaption>저 스파게티의 상징적 의미는 한국으로 따지면 라면보다는 밥에 가깝다. / <a href="https://movie.daum.net/moviedb/main?movieId=79172">출처 : 다음영화</a></figcaption>
+</figure>
+
+## 차이를 극복하는 것에 대한 어려움
 
 아델과 엠마는 서로 다른 사회적 이해관계를 갖고 있다. 그리고 이들의 차이는 다른
 것을 채워줄 수 있는 장점보다 서로 원하는 것을 충족하지 못하는 단점이 더 컸다.

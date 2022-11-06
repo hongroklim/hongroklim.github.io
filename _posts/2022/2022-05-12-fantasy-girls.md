@@ -23,6 +23,12 @@ categories: review
 분명히 다른 특성을 가진다. 그리고 영화 ‘소녀의 세계’는 소녀의 감성으로 이
 사랑을 그리고 있다.
 
+<figure>
+  <img src="https://i.imgur.com/ikX67Ns.png"
+       alt="fantasy_girls_poster">
+  <figcaption>소녀의 세계 포스터. 미흡한 점들이 많았지만 독립영화라 그려러니하고 봤다. / <a href="https://movie.daum.net/moviedb/main?movieId=103947">출처 : 다음영화</a></figcaption>
+</figure>
+
 ## 영화소개
 
 영화 ‘소녀의 세계’는 대한민국 독립영화이다. 영화의 주인공은 여고생 3명으로,
@@ -63,6 +69,12 @@ categories: review
 확인한 일이 없으니 상처받을 이유도 없고 한 순간에 사랑이 사라진다고 해도 남은
 일상은 여전할 것이다. 그들이 말하는 사랑은 눈먼 사랑에 불과했을 것이다.
 
+<figure>
+  <img src="https://i.imgur.com/1hufCQu.jpg"
+       alt="fantasy_girls_boy">
+  <figcaption>노정의 졸졸 따라다니는 조병규. 저것은 썸도 아니다. / <a href="https://movie.daum.net/moviedb/main?movieId=103947">출처 : 다음영화</a></figcaption>
+</figure>
+
 ## 궁금한게 많은 사랑
 
 사춘기 청소년들에게 사랑이라는 감정의 절반은 호기심으로 채워져 있다. 대부분
@@ -85,6 +97,12 @@ categories: review
 관심이 생겨난다는 것이다. 사춘기 때는 아직 자기 자신도 완전히 바라보고
 이해하지 못하였던 것만큼 자신에게 사랑하는 사람이란 변화무쌍한 존재로 자기
 자신 다음으로 궁금한 사람일 것이다.
+
+<figure>
+  <img src="https://i.imgur.com/DeJXVl9.jpg"
+       alt="fantasy_girls_practice">
+  <figcaption>줄리엣 역할을 열심히 준비 중인 노정의. 발연기를 연기하는 것도 대단하다. / <a href="https://movie.daum.net/moviedb/main?movieId=103947">출처 : 다음영화</a></figcaption>
+</figure>
 
 ## 알 수 없는 마음
 
@@ -128,6 +146,12 @@ categories: review
 상대적으로 짧게 살아온 인생에서 어떤 일들은 길다 못해 영원할 것처럼 느껴지기
 때문이다. 하지만 인생이란 그렇지가 않다. 영원할 것 같던 사랑이 유한한 사랑이
 되었을 때 사춘기의 사랑은 성장하게 되는 것이다.
+
+<figure>
+  <img src="https://i.imgur.com/6coRdmZ.jpg"
+       alt="fantasy_girls_ending">
+  <figcaption>수연과 하남의 과거는 다소 충격적이었다. / <a href="https://movie.daum.net/moviedb/main?movieId=103947">출처 : 다음영화</a></figcaption>
+</figure>
 
 ## 결론: 사랑은 사랑이었다
 
