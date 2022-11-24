@@ -39,7 +39,18 @@ permalink: /cv/
     <span class="time">Mar 2018 - Present</span>
   </div>
   <div class="content">
-    <div class="body">B.S. in Information Systems, Computer Science</div>
+    <div class="body">B.S. in Information Systems</div>
+  </div>
+</div>
+
+<div class="element">
+  <div class="title">
+    <div class="label">Mokpo National University, Korea</div>
+    <span class="time">Oct 2014 – Nov 2015</span>
+  </div>
+  <div class="content">
+    <span class="loc">Institute of Information Security Gifted Education</span>
+    <div class="ul"><b>Tracks</b>: Elementary, Advanced (Web Hacking)</div>
   </div>
 </div>
 
@@ -52,7 +63,7 @@ permalink: /cv/
   </div>
   <div class="content">
     <div class="loc">Nanyang Technological University, Singapore</div>
-    <div class="ul"><b>Programme</b>: Computer Engineering</div>
+    <div class="ul"><b>Programme</b>: School of Computer Science and Engineering</div>
   </div>
 </div>
 
@@ -97,17 +108,6 @@ permalink: /cv/
   <div class="content">
     <div class="loc">Teach For Korea Inc. Association</div>
     <div class="ul"><b>Roles</b>: Teach Mathematics, Manage Tutor Recruitment</div>
-  </div>
-</div>
-
-<div class="element">
-  <div class="title">
-    <span class="label">Gifted Education – Information Security</span>
-    <span class="time">Oct 2014 – Nov 2015</span>
-  </div>
-  <div class="content">
-    <div class="loc">Mokpo National University, Korea</div>
-    <div class="ul"><b>Tracks</b>: Elementary, Advanced (Web Hacking)</div>
   </div>
 </div>
 
