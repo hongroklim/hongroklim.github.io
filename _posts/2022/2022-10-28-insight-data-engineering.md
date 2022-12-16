@@ -1,15 +1,9 @@
 ---
 date: 2022-10-28 13:00:00 +0900
 title: 데이터 엔지니어링 세미나 후기
-excerpt: Grab의 Senior Data Engineer가 말하는데 안 믿을 수 있나
+excerpt: Grab의 Senior Data Engineer의 설명을 안 믿을 수 있나
 categories: bigdata
 ---
-
-<figure>
-  <img src="https://i.imgur.com/kJHxAGi.jpg"
-       alt="seminar_poster">
-  <figcaption>이름만 달아둔 동아리였는데 이렇게 좋은 세미나를 열어주다니!</figcaption>
-</figure>
 
 ## 세미나 개요
 
@@ -18,6 +12,12 @@ categories: bigdata
 * 장소: LT1A, Nanyang Technological University, Singapore
 * 연사: Mr. Raj Kunwar Singh, A senior data engineer working at Grab
 * 주최: Open Source Society, NTU
+
+<figure>
+  <img src="https://i.imgur.com/kJHxAGi.jpg"
+       alt="seminar_poster">
+  <figcaption>이름만 달아둔 동아리였는데 이렇게 좋은 세미나를 열어주다니!</figcaption>
+</figure>
 
 ## 참석 동기
 
@@ -32,7 +32,6 @@ NTU 교환학생 생활 중 가입했던 동아리 중 하나인 Open Source Soc
 엔지니어라고 소개하는 사람은 과연 어떤 말을 하는 지 들어보고 싶었다. 마침
 시간도 나고 할일도 없겠다 LT1A로 세미나를 들으러 갔다.
 
-<-- 사진 추가 LT1A 사진 -->
 <figure>
   <img src="https://i.imgur.com/BT4ejUe.jpg"
        alt="seminar_lt">

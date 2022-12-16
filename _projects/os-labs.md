@@ -2,7 +2,7 @@
 layout: project
 title: OS Lab Project
 spec: OS/C
-excerpt: xv6-public 기반으로 Kernel 구현
+excerpt: xv6-public 기반으로 Kernel 기능 확장
 github: https://github.com/hongroklim/os-labs
 image: https://logo.github.com
 order: 6

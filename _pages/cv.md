@@ -12,7 +12,7 @@ permalink: /cv/
 </div>
 
 <div class="blocks">
-  <a href="https://entuedu-my.sharepoint.com/:b:/g/personal/n2202351b_e_ntu_edu_sg/Eb_kgwW-fS5LgT3MKBvWHVQB9usbAcEKX3xRMeMaSjxABA?e=klcpaQ"
+  <a href="https://entuedu-my.sharepoint.com/:b:/g/personal/n2202351b_e_ntu_edu_sg/Ee84Pe7X3-tLrhjVRZ9px94Bl6TrNXcK47fm8JY3kvrB4w"
      target="_blank" rel="nofollow noopener noreferrer">PDF</a>
 
   <a href="tel:+82-10-5127-1526">Phone</a>
@@ -59,7 +59,7 @@ permalink: /cv/
 <div class="element">
   <div class="title">
     <span class="label">Exchange Student</span>
-    <span class="time">Aug 2022 – Present</span>
+    <span class="time">Aug 2022 – Dec 2022</span>
   </div>
   <div class="content">
     <div class="loc">Nanyang Technological University, Singapore</div>

@@ -251,10 +251,19 @@ body {
 
 // (in Project)
 .post-project {
+  /*
   .post-header {
     .post-image {
       width: 100%;
       max-width: 450px;
+    }
+  }
+  */
+
+  .post-desc {
+    &>a {
+      margin-left: 5px;
+      white-space: nowrap;
     }
   }
 }
