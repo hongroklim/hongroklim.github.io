@@ -51,15 +51,29 @@ categories: linux debian
 
 ```html
 <figure>
+  <img src=""
+       alt="">
+  <figcaption>
+    &emsp;/&emsp;
+    <a href="">
+    </a>
+  </figcaption>
+</figure>
+
+<figure>
   <img src="https://user-images.githubusercontent.com/59322692/111873258-cc615380-89d2-11eb-9b65-dcbd6f6caf60.png"
        alt="content_01">
-  <figcaption>6.4 없는 펌웨어 읽어들이기&emsp;/&emsp;<a href="https://www.debian.org/releases/stable/i386/install.pdf.ko">출처 : 데비안 GNU/리눅스 설치 안내서 69p</a></figcaption>
+  <figcaption>
+    6.4 없는 펌웨어 읽어들이기
+    &emsp;/&emsp;
+    <a href="https://www.debian.org/releases/stable/i386/install.pdf.ko">
+      출처 : 데비안 GNU/리눅스 설치 안내서 69p
+    </a>
+  </figcaption>
 </figure>
 ```
 
 ## collapsible
-
-이거 스타일 추가해야겠네
 
 <details>
     <summary>항상 보이는 것</summary>

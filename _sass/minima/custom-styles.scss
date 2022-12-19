@@ -83,16 +83,24 @@ body {
       border-radius: 5px;
 
       @media screen and (min-width: $on-medium) {
-        max-width: $on-medium - 50px;
+        max-width: $on-medium;
       }
     }
 
     figcaption {
       margin: auto;
-      max-width: 80%;
-      text-align: center;
+      width: 100%;
+      text-align: left;
       color: $brand-color;
       word-break: keep-all;
+
+      @media screen and (min-width: $on-medium) {
+        text-align: center;
+      }
+
+      a {
+        white-space: nowrap;
+      }
     }
   }
 
