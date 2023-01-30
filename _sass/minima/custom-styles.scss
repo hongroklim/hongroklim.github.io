@@ -72,6 +72,10 @@ body {
       padding: 10px;
     }
   }
+  
+  blockquote {
+    font-size: $base-font-size;
+  }
 
   figure {
     margin: ($spacing-unit*1.5) 0;
@@ -335,17 +339,6 @@ body {
   border-radius: 5px;
   box-shadow: 0 1px 5px $brand-color, inset 0 0px 0 $brand-color, inset 0 -0.5px 0 $brand-color;
   background-image: linear-gradient(to bottom, $background-color 0%, $table-zebra-color 100%);
-
-  -webkit-transition: padding 0.5s;
-  transition: padding 0.5s;
-
-  &:hover {
-    border-radius: 0;
-    box-shadow: 0 2.5px 10px $brand-color, inset 0 -2.5px 0 $brand-color;
-
-    background-image: unset;
-    background-color: $background-color;
-  }
 }
 
 // cv
@@ -379,43 +372,36 @@ body {
       white-space: nowrap;
       padding: ($spacing-unit * 0.5) ($spacing-unit * 0.75);
     }
+  }
 
-    span:hover {
-      padding: ($spacing-unit * 0.75) ($spacing-unit * 1);
-    }
+  .elements {
+    @include shadow-block;
+    margin: auto;
+    max-width: 550px;
   }
 
   .element {
-      @include shadow-block;
-
-      margin: auto;
-      max-width: 550px;
       padding: $spacing-unit * 0.5;
 
-      &:hover {
-        padding: $spacing-unit * 0.75;
-      }
-
       .title {
-        display: flex;
-        justify-content: space-between;
-
         .label {
           font-weight: $base-font-weight * 1.25;
           text-shadow: $brand-color 0px 1px 2px;
         }
 
+        .loc {
+          display: block;
+          font-style: italic;
+        }
+
         .time {
+          display: block;
           font-size: $base-font-size * 0.8;
-          color: $brand-color;
         }
       }
 
       .content {
-        .loc {
-          font-style: italic;
-          color: $brand-color;
-        }
+        color: $brand-color;
 
         .ul {
           &.cards {
@@ -431,10 +417,6 @@ body {
               padding: ($spacing-unit * 0.1) ($spacing-unit * 0.25);
             }
           }
-        }
-
-        .loc + .ul {
-          margin-top: $spacing-unit * 0.5;
         }
       }
   }
