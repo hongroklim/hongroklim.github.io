@@ -191,9 +191,14 @@ body {
     line-height: 2.5;
 
     a {
-      margin: $spacing-unit / 4;
       margin-top: 0;
-      padding: $spacing-unit / 2;
+      margin: $spacing-unit / 10;
+      padding: $spacing-unit / 6;
+
+      @media screen and (min-width: $on-medium) {
+        margin: $spacing-unit / 4;
+        padding: $spacing-unit / 2;
+      }
 
       &:visited { color: $link-base-color; }
       &:first-child { margin-left: 0; }
@@ -202,17 +207,54 @@ body {
   }
 
   .item {
-    margin-bottom: $spacing-unit * 1.5;
+    margin-bottom: $spacing-unit * 2;
 
     &:last-child { margin-bottom: 0; }
 
     a {
-      display: flex;
-      justify-content: space-between;
+      display: block;
       padding-top: $spacing-unit / 4;
       padding-bottom: $spacing-unit / 4;
 
-      .time {
+      @media screen and (min-width: $on-medium) {
+        padding-top: $spacing-unit / 2.5;
+        padding-bottom: $spacing-unit / 2.5;
+      }
+
+      &:hover {
+        text-decoration: none;
+
+        .title {
+          text-decoration: underline;
+        }
+      }
+
+      .top {
+        display: flex;
+        justify-content: space-between;
+        word-break: keep-all;
+
+        .time {
+          font-size: $small-font-size;
+          letter-spacing: -1px;
+          white-space: nowrap;
+
+          @media screen and (min-width: $on-medium) {
+            font-size: $base-font-size;
+            letter-spacing: unset;
+          }
+
+          color: $text-color;
+        }
+      }
+      
+      .bottom {
+        display: none;
+
+        @media screen and (min-width: $on-medium) {
+          display: block;
+        }
+
         color: $brand-color;
       }
     }
@@ -396,7 +438,7 @@ body {
 
         .time {
           display: block;
-          font-size: $base-font-size * 0.8;
+          font-size: $small-font-size;
         }
       }
 

@@ -23,13 +23,16 @@ permalink: /tech/
     <h3>#{{ category[0] }}</h3>
     {% for post in category[1] %}
       <a class="post" href="{{ post.url }}">
-        <span class="title">{{ post.title }}</span>
-        <span class="time">
-          <time datetime="{{ post.date | date_to_xmlschema }}">
-            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-            {{ post.date | date: date_format }}
-          </time>
-        </span>
+        <div class="top">
+          <span class="title">{{ post.title }}</span>
+          <span class="time">
+            <time datetime="{{ post.date | date_to_xmlschema }}">
+              {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+              {{ post.date | date: date_format }}
+            </time>
+          </span>
+        </div>
+        <div class="bottom">{{ post.excerpt }}</div>
       </a>
     {% endfor %}
   </div>
