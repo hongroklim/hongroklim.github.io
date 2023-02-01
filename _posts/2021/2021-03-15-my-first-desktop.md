@@ -2,13 +2,17 @@
 date: 2021-03-15 23:16:54 +0900
 title: 나의 첫번째 데스크톱
 excerpt: 부품 중에서 케이스가 가장 비싸다
-header:
-  overlay_image: https://user-images.githubusercontent.com/59322692/111871299-873a2300-89cc-11eb-88a7-a7e3461803ad.jpeg
 categories: diary
 ---
 
-10년 넘은 CPU, 처음보는 그래픽카드 그리고 두 개의 4GB RAM.
-요즘 찾기 어려운 성능인 이 컴퓨터는 나의 첫 데스크톱이다.
+<figure>
+  <img src="https://i.imgur.com/XsxgBHy.jpg"
+       alt="desktop_only">
+  <figcaption>
+    10년 넘은 CPU, 처음보는 그래픽카드 그리고 두 개의 4GB RAM.
+    요즘 찾기 어려운 성능인 이 컴퓨터는 나의 첫 데스크톱이다.
+  </figcaption>
+</figure>
 
 ## 데스크톱 없어도 되던데
 

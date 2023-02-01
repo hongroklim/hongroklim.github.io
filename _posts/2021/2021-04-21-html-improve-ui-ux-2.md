@@ -1,11 +1,16 @@
 ---
 date: 2021-04-21 22:57:00 +0900
-title: 나만의 웹페이지 UI/UX 개선하기(2/2)
+title: 나만의 웹페이지 UI/UX 개선하기 (2/2)
 excerpt: IndexedDB로 서버없이 html에 날개를 달아보아요 
-header:
-  overlay_image: https://user-images.githubusercontent.com/59322692/115569862-93314180-a2f8-11eb-9fd4-6f7c2f7227bd.png
 categories: web 
 ---
+
+<figure>
+  <img src="https://i.imgur.com/0CKFRRV.png"
+       alt="web_dev">
+  <figcaption>
+  </figcaption>
+</figure>
 
 ## ajax만 써봐서 그런지
 
@@ -189,7 +194,7 @@ return new Promise(((resolve, reject) => {
 `repo.js`를 만든건 ajax로만 데이터를 조회하던 것을 중간에 IndexedDB를 껴서 활용하고자 하는 목적이었다. 나의 구상은 다음과 같다.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/115735950-d73e4800-a3c5-11eb-9d5a-6462fa2d0bd5.png"
+  <img src="https://i.imgur.com/T49LZqe.png"
        alt="content_01">
   <figcaption>loadPage 부터 setPage 까지 발행정보를 불러오는 과정. 회색부분이 IndexedDB를 활용한 부분이다.</figcaption>
 </figure>

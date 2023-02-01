@@ -1,14 +1,36 @@
 ---
-title:  Jekyll 연습장
 date:   2021-02-17 22:57:54 +0900
+title:  나만 보는 Jekyll 연습장
+excerpt: 자주 쓰는 코드들은 여기에 모아두었음
 categories: dev
 ---
 
-Jekyll을 탐구하는 곳 입니다.
+## Post 맨 위에
 
-## post's prefix skeleton
+- Tech category: `blockchain`, `bigdata`, `web`, `java`, `dev`
+- 나머지: `review`, `diary`
 
+```yaml
+---
+date: 202-0-0 00:00:00 +0900
+title: 
+excerpt: 
+categories:
+---
+```
+
+```yaml
+---
+date: 2021-03-20 22:00:00 +0900
+title: 데비안에 펌웨어 설치하기
+excerpt: 네트워크도 안 되는데 펌웨어를 설치할 일이 생겼다
+categories: dev
+---
+```
+
+{% comment %}
 ### 사진 있을 때
+
 ```yaml
 ---
 date: 2021-03-15 23:16:54 +0900
@@ -16,20 +38,11 @@ last_modified_at: 2021-03-18 23:12:17 +0900
 title: "나의 첫번째 데스크톱"
 excerpt: 부품 중에서 케이스가 가장 비싸다
 header:
-  overlay_image: https://user-images.githubusercontent.com/59322692/111871299-873a2300-89cc-11eb-88a7-a7e3461803ad.jpeg
+  overlay_image: https://i.imgur.com/XsxgBHy.jpg
 categories: diary computer
 ---
 ```
-
-### 텍스트만
-```yaml
----
-date: 2021-03-20 22:56:00 +0900
-title: "데비안에 펌웨어 설치하기"
-excerpt: 네트워크도 안 되는데 펌웨어를 설치할 일이 생겼다
-categories: linux debian
----
-```
+{% endcomment %}
 
 ## notice block
 
@@ -37,14 +50,18 @@ categories: linux debian
 {: .notice}
 
 ```text
+{: .notice}
+```
+
+```text
 **ProTip:** Be sure to remove `/docs` and `/test` if you forked Minimal Mistakes. These folders contain documentation and test pages for the theme and you probably don't want them littering up your repo.
 {: .notice}
 ```
 
-## 이미지 캡션 달기
+## 이미지와 캡션
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/111873258-cc615380-89d2-11eb-9b65-dcbd6f6caf60.png"
+  <img src="https://i.imgur.com/6Yq5WUf.png"
        alt="content_01">
   <figcaption>6.4 없는 펌웨어 읽어들이기&emsp;/&emsp;<a href="https://www.debian.org/releases/stable/i386/install.pdf.ko">출처 : 데비안 GNU/리눅스 설치 안내서 69p</a></figcaption>
 </figure>
@@ -59,9 +76,11 @@ categories: linux debian
     </a>
   </figcaption>
 </figure>
+```
 
+```html
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/111873258-cc615380-89d2-11eb-9b65-dcbd6f6caf60.png"
+  <img src="https://i.imgur.com/6Yq5WUf.png"
        alt="content_01">
   <figcaption>
     6.4 없는 펌웨어 읽어들이기
@@ -73,7 +92,7 @@ categories: linux debian
 </figure>
 ```
 
-## collapsible
+## 접히는 거
 
 <details>
     <summary>항상 보이는 것</summary>
@@ -82,9 +101,43 @@ categories: linux debian
 
 ```html
 <details>
+    <summary></summary>
+</details>
+```
+
+```html
+<details>
     <summary>항상 보이는 것</summary>
     눌렀을 때 보이는 것
 </details>
+```
+
+## liquid 문법
+
+[링크](https://shopify.github.io/liquid/tags/control-flow/)
+
+```liquid{% raw %}
+{% comment %}
+{% endcomment %}
+
+{% post_url %}
+{% endraw %}
+{% raw %}{%{% endraw %} raw %}
+{% raw %}{%{% endraw %} endraw %}
+```
+
+```liquid{% raw %}
+{% # 주석 %}
+{% comment %}
+{% assign verb = "converted" %}
+{% endcomment %}
+
+{% # 내부 URL %}
+{% post_url 2022/2022-07-05-room-19 %}
+
+{% # 문자 그대로 %}{% endraw %}
+{% raw %}{%{% endraw %} raw %}
+{% raw %}{%{% endraw %} endraw %}
 ```
 
 ## something
@@ -125,15 +178,3 @@ Settings that affect your entire site can be changed in [Jekyll's configuration 
 {: .notice}
 
 Take a moment to look over the configuration file included with the theme. Comments have been added to provide examples and default values for most settings. Detailed explanations of each can be found below.
-
-## Site Settings
-
-### Theme
-
-If you're using the Ruby gem version of the theme you'll need this line to activate it:
-
-```yaml
-theme: minimal-mistakes-jekyll
-```
-
-### Skin

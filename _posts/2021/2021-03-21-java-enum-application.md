@@ -2,10 +2,15 @@
 date: 2021-03-21 17:47:00 +0900
 title: Java enum 실전 활용
 excerpt: 조건문과 반복문 대신 나름 객체지향적인 개발을 해볼까 한다
-header:
-  overlay_image: https://user-images.githubusercontent.com/59322692/112025531-99f15b00-8b78-11eb-83cf-0e5ae48c02b1.png
 categories: java
 ---
+
+<figure>
+  <img src="https://i.imgur.com/rJRpJ6A.png"
+       alt="java">
+  <figcaption>
+  </figcaption>
+</figure>
 
 대형 SI 프로젝트에서 나는 평소대로 노가다스럽게 복사 붙여넣기를 하고 있었다.
 그러다 기발한 아이디어가 떠올랐다. 어디 한번 색다르게 코드를 짜봐야겠다.

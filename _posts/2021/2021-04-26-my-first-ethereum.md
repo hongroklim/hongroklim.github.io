@@ -1,12 +1,19 @@
 ---
-date: 2021-04-25 23:08:00 +0900
-title: 무작정 이더리움의 contract를 만들어보았다
-excerpt: 처음뵙겠습니다. 여기가 그 유명한 블록체인 맛집인가요?
-header:
-  overlay_image: https://user-images.githubusercontent.com/59322692/116111423-990c9580-a6f1-11eb-9481-3759a967b227.png
-  caption: "&copy; [**logo.wine**](https://www.logo.wine/logo/Ethereum)"
+date: 2021-04-26 23:08:00 +0900
+title: 무작정 이더리움의 contract를 만들었다
+excerpt: 블록체인 개발의 시작이 맞으려나
 categories: blockchain
 ---
+
+<figure>
+  <img src="https://i.imgur.com/3Y33Xb4.png"
+       alt="ethereum_logo">
+  <figcaption>
+    <a href="https://www.logo.wine/logo/Ethereum">
+      출처: logo.wine
+    </a>
+  </figcaption>
+</figure>
 
 **글에 대한 설명** : **Mastering Ethereum**이라는 책의 Chapter 2. 위주로 다루고 있다.
 원문은 [github](https://github.com/ethereumbook/ethereumbook) 에서 볼 수 있다.
@@ -24,7 +31,7 @@ Ethereum에서 Contract를 한다는 것은 ether가 왔다 갔다 하는 것이
 그리고 검색할 때 화폐를 다루는 용도이니 리뷰와 다운로드 수를 확인하여 가짜가 아닌지 주의하자.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/116092898-2a274080-a6e1-11eb-8042-9dc1c99a155b.png"
+  <img src="https://i.imgur.com/tliviQU.png"
        alt="content_01">
   <figcaption>FireFox 에서의 MetaMask 설치 페이지</figcaption>
 </figure>
@@ -32,7 +39,7 @@ Ethereum에서 Contract를 한다는 것은 ether가 왔다 갔다 하는 것이
 설치는 금방 끝났고 초기 화면이 브라우저에 나타난다. *New to MetaMask?*라는 질문에는 **Yes, let's get set up!**(오른쪽)이라고 답하면 된다.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/116097439-1bdb2380-a6e5-11eb-99ed-0f23a67cf786.png"
+  <img src="https://i.imgur.com/iUF4dHH.png"
        alt="content_02">
   <figcaption>(좌) 처음 설치했을 때. 커서를 따라 여우가 고개를 돌린다. / (우) 이미 seed phase가 있는지, 아니면 새로 만들건지 묻는다.</figcaption>
 </figure>
@@ -41,7 +48,7 @@ Ethereum에서 Contract를 한다는 것은 ether가 왔다 갔다 하는 것이
 싶었는데 그런건 아니었다. 다음 화면으로 비밀번호를 설정한다.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/116098333-f4d12180-a6e5-11eb-81fe-3598c00a19c8.png"
+  <img src="https://i.imgur.com/SOM6iA4.png"
        alt="content_03">
   <figcaption>(좌) 정보수집에 동의하시겠습니까? / (우) 사용할 비밀번호를 입력한다.</figcaption>
 </figure>
@@ -51,7 +58,7 @@ Ethereum에서 Contract를 한다는 것은 ether가 왔다 갔다 하는 것이
 나중에 컴퓨터가 바뀌거나 다른 곳에서 Wallet을 쓸 일이 있다면 Secret Backup Phrase로 불러오면 되는 것이다.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/116104150-2ef0f200-a6eb-11eb-8782-57d84e0ca4ba.png"
+  <img src="https://i.imgur.com/7DTOORV.png"
        alt="content_04">
   <figcaption>(좌) Secret Backup Phrase를 저장한다. / (우) 잘 저장했는지 확인한다.</figcaption>
 </figure>
@@ -66,7 +73,7 @@ Ethereum에서 Contract를 한다는 것은 ether가 왔다 갔다 하는 것이
 MetaMask 화면 오른쪽 위의 프로필 사진을 클릭하게 되면 *Networks*를 선택할 수 있게 되는데, 테스트 중 하나인 **Ropsten Test Network**를 선택하자.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/116106116-e5090b80-a6ec-11eb-912a-6710219f2196.png"
+  <img src="https://i.imgur.com/bSagQfn.png"
        alt="content_05">
   <figcaption>이더리움 네트워크 선택 화면</figcaption>
 </figure>
@@ -94,7 +101,7 @@ Faucet에서 내 Account로 이체를 시켰는지 확인하고 싶다. 이더�
 바로 Etherscan이라는 웹사이트이다. Ropsten Test Network는 [https://ropsten.etherscan.io](https://ropsten.etherscan.io/) 에서 확인할 수 있다.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/116110087-58f8e300-a6f0-11eb-82cf-2ae94259f01e.png"
+  <img src="https://i.imgur.com/iC2K7Mf.png"
        alt="content_06">
   <figcaption>(좌) Etherscan 페이지. / (우) Account 주소를 검색한 화면.</figcaption>
 </figure>
@@ -117,7 +124,7 @@ Etherscan 홈페이지에서 내 Account를 입력하면 내가 가진 ether의 
 위에서 진행할 것이다. IDE에 접속해보자.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/116256514-37f6c780-a7ae-11eb-8866-b6707ef17f47.png"
+  <img src="https://i.imgur.com/UlYFljz.png"
        alt="content_07">
   <figcaption>remix IDE. 여기서 개발, 컴파일 그리고 배포까지 다 할수있단다... 와...</figcaption>
 </figure>
@@ -157,7 +164,7 @@ contract Faucet {
 compile은 *Solidty Compiler*(왼쪽 위에서 2번째 아이콘)에서 *Compile Faucet.sol*을 누르면 된다. compile된 결과는 `/contracts/artifacts/Faucet.json`에 위치한다. 그 중에서 data를 찾으면 된다.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/116260482-b0ab5300-a7b1-11eb-97fa-4b0f8a2139a7.png"
+  <img src="https://i.imgur.com/pA8skIt.png"
        alt="content_07">
   <figcaption>Faucet.json 안의 solidty의 compile된 코드</figcaption>
 </figure>
@@ -169,7 +176,7 @@ compile은 *Solidty Compiler*(왼쪽 위에서 2번째 아이콘)에서 *Compile
 그리고 나서 *Deploy*버튼을 누르고 wallet에서 gas를 결제한 뒤 blockchain으로 contract가 deploy 시작된다.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/116262998-fa953880-a7b3-11eb-9700-b49d48a13f97.png"
+  <img src="https://i.imgur.com/mMNlTgg.png"
        alt="content_08">
   <figcaption>(좌)remix의 배포화면. (우)gas fee 결제화면.</figcaption>
 </figure>
@@ -188,7 +195,7 @@ copy icon을 눌러 address를 복사한 뒤 Etherscan에서 나의 contract를 
 나의 Account에서 `Faucet`으로 이더리움을 이체해보자. MetaMask에서 *Send*를 선택한 뒤 Contract의 주소로 0.1 ether를 보내자.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/116267395-557c5f00-a7b7-11eb-9c98-561bdc77c018.png"
+  <img src="https://i.imgur.com/duF1xzV.png"
        alt="content_09" style="max-width: 400px;">
   <figcaption>Transfer 화면. blockchain위에 기록하는 작업이다 보니 gas 역시 필요하다.</figcaption>
 </figure>
@@ -201,7 +208,7 @@ copy icon을 눌러 address를 복사한 뒤 Etherscan에서 나의 contract를 
 로 돌아가자. 맨 아래 *Deployed Contracts*에서 그 `Faucet`을 찾자. 만약 보이지 않는다면 *At Address*부분에 `Faucet`의 address를 입력하면 된다.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/116268443-4944d180-a7b8-11eb-937a-a3b01606e07d.png"
+  <img src="https://i.imgur.com/71KXjt3.png"
        alt="content_10" style="max-width: 350px;">
   <figcaption>Contracts 실행화면. At Address에 주소를 입력해서 Contracts를 부를 수도 있다.</figcaption>
 </figure>
@@ -211,7 +218,7 @@ copy icon을 눌러 address를 복사한 뒤 Etherscan에서 나의 contract를 
 이 또한 시간이 좀 지나면 Etherscan에서 확인이 가능하다. 이 때는 Transactions 탭이 아닌 **Internal Txns**에서 확인 가능하다.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/116269767-72199680-a7b9-11eb-85b3-c37207221faa.png"
+  <img src="https://i.imgur.com/ay1w87R.png"
        alt="content_11">
   <figcaption>Internal Transactions 화면. Contracts 로부터 입금이 된 것을 확인할 수 있다.</figcaption>
 </figure>

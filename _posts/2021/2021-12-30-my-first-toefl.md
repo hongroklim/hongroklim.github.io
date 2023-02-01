@@ -2,10 +2,17 @@
 date: 2021-12-30 22:00:00 +0900
 title: 학원 2달 토플시험 수기
 excerpt: 비싸다 비싸 재미삼아 보고싶지 않은 어학시험
-header:
-    overlay_image: https://user-images.githubusercontent.com/59322692/147852670-a82c8db4-e2b8-40d2-8378-33914f99086e.png
 categories: diary
 ---
+<figure>
+  <img src="https://i.imgur.com/2uQ885J.png"
+       alt="toefl_logo">
+  <figcaption>
+    <a href="https://www.ets.org/toefl.html">
+      출처: ETS
+    </a>
+  </figcaption>
+</figure>
 
 ## 시험을 본 이유
 

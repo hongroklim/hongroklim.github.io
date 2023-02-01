@@ -1,8 +1,8 @@
 ---
-title:  Jekyll 블로그 시작하기
 date:   2021-02-17 22:57:54 +0900
-categories: web
+title:   The Beginning of My Own Blog
 excerpt: 블로그, 그 위대한 여정의 시작
+categories: web
 ---
 
 ## Let's make my own blog

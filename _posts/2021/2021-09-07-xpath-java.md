@@ -1,11 +1,16 @@
 ---
 date: 2021-09-07 22:21:00 +0900
 title: XPath로 XML 문서 수정하기
-excerpt: XML 문서 다루기에는 기본 라이브러리 만으로도 충분하다
-header:
-    overlay_image: https://user-images.githubusercontent.com/59322692/132992117-7891f1c2-d640-4b26-b54d-631949140f88.png
+excerpt: Java 기본 라이브러리인데 한번 써봐야지
 categories: java
 ---
+
+<figure>
+  <img src="https://i.imgur.com/AStFrPk.png"
+       alt="java_codes">
+  <figcaption>
+  </figcaption>
+</figure>
 
 전에 개발자로 참여했던 웹 프로젝트가 있었는데, UI 개발할 때 상용 소프트웨어를 사용하고 있었다.
 개발자는 Drag & Drop으로 Component를 위치시킨 후 속성들을 에디터에서 수정할 수 있고, 이러한 정보들이

@@ -1,7 +1,7 @@
 ---
 date: 2021-09-05 23:28:00 +0900
-title: 어쩌다보니 함수형 프로그래밍 비슷한걸 하는 중
-excerpt: Java의 Lambda와 Functional Interface를 이해하는 의식의 흐름
+title: 어쩌다보니 함수형 프로그래밍 입문기
+excerpt: Lambda와 Functional Interface에 관한 의식의 흐름
 categories: java
 ---
 

@@ -2,8 +2,6 @@
 date: 2021-05-11 23:34:00 +0900
 title: 아주 위험한 바이오스 강제 업데이트
 excerpt: 삼성 OEM 메인보드의 BIOS 업데이트는 함부로 하지말자
-header:
-  overlay_image: https://user-images.githubusercontent.com/59322692/117842308-c2fcb500-b2b8-11eb-8fcb-7eb21de08ba7.PNG
 categories: diary
 ---
 
@@ -28,7 +26,7 @@ categories: diary
 이번에는 해당 데스크탑 모델을 검색해 보았다. 펌웨어 다운로드 목록에는 하나의 항목 밖에 없었는데, Update System라는 이름이 왠지 방금 시도했던 종합 업데이트 프로그램처럼 생겨서 다를게 없을 것 같다는 생각이 들었다. 그래도 한번 열어보기나 해보자 하고 실행했는데, 이게 왠 일인가. 대놓고 BIOS 업데이트라고 써있는 게 아닌가! 이 Update System라고 적힌게 BIOS 업데이트란 것을 알게 된 나는 최신버전의 펌웨어를 찾기 위해 이 모델과 비슷하게 생긴 모든 파일들을 열어보았다. 근데 모든 파일의 용량이 같은 걸 보니 모두 같은 파일임을 알 수 있었다.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/117844933-1112b800-b2bb-11eb-9186-16ea19de89cf.png"
+  <img src="https://i.imgur.com/aJnLcGd.png"
        alt="content_01">
   <figcaption>'Update Software'라는 펌웨어가 BIOS 업데이트 하는 역할인지 알기가 어렵다.</figcaption>
 </figure>
@@ -61,7 +59,7 @@ exe 파일 안에 펌웨어가 있을 것 같다는 생각이 들었다. 그래�
 {: .notice}
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/117841752-41a52280-b2b8-11eb-829e-f0f590b95516.png"
+  <img src="https://i.imgur.com/nlMnhfP.png"
        alt="content_02">
   <figcaption>지금 업데이트 프로그램은 최신 펌웨어 버전을 찾는 중이다.</figcaption>
 </figure>
@@ -73,7 +71,7 @@ exe 파일 안에 펌웨어가 있을 것 같다는 생각이 들었다. 그래�
 알아냈고, Response에서 업데이트 파일 URL도 캐낼 수 있었다.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/117841522-19b5bf00-b2b8-11eb-83ae-b0bb3ed6904a.png"
+  <img src="https://i.imgur.com/Vcvyvz4.png"
        alt="content_03">
   <figcaption>ItemNo만 찾으면 BIOS 업데이트 파일을 다운로드 받을 수 있다.</figcaption>
 </figure>
@@ -86,7 +84,7 @@ exe 파일 안에 펌웨어가 있을 것 같다는 생각이 들었다. 그래�
 업데이트 파일은 임시파일이 있는 공간 속에 압축해제를 한 뒤 실질적으로 업데이트를 실행한다는 것을 알 수 있었다.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/117844024-51256b00-b2ba-11eb-90bd-74e228cb75df.png"
+  <img src="https://i.imgur.com/hc4Xjct.png"
        alt="content_04">
   <figcaption>BIOS 업데이트 영상. 창 제목에 실제 실행되는 프로그램의 경로가 보인다. / <a href="https://www.youtube.com/watch?v=_1FxeDNqTQ0">출처 : Youtube</a></figcaption>
 </figure>
@@ -99,13 +97,13 @@ exe 파일 안에 펌웨어가 있을 것 같다는 생각이 들었다. 그래�
 건너뒤고 그냥 덮어씌우는 기능이 있어 강제로 업데이트를 실행하였고, 업데이트가 끝난 뒤 컴퓨터를 재부팅하였다.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/117842256-b7a98980-b2b8-11eb-91a5-189bc9df998c.png"
+  <img src="https://i.imgur.com/KlBC7Bp.png"
        alt="content_05">
   <figcaption>P07KTS.cap 파일 안에 BIOS를 업데이트하는 rom이 있다.</figcaption>
 </figure>
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/117842308-c2fcb500-b2b8-11eb-8fcb-7eb21de08ba7.PNG"
+  <img src="https://i.imgur.com/eGPcAN1.png"
        alt="content_06">
   <figcaption>업데이트 프로그램이 뱉어내는 경고를 무시하며 업데이트를 강행했다.</figcaption>
 </figure>

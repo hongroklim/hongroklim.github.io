@@ -1,11 +1,16 @@
 ---
 date: 2021-03-18 23:49:00 +0900
-title: 데비안(Debian)을 설치했다
-excerpt: 데스크톱 운영체제(OS)로 리눅스를 설치해본 경험담
-header:
-  overlay_image: https://user-images.githubusercontent.com/59322692/111863557-b25a4d80-899f-11eb-95de-d9e226a50e94.png
+title: 내 데스크톱은 윈도우 말고 리눅스
+excerpt: VM도 아니고 Host에 데비안을 설치했다
 categories: dev
 ---
+
+<figure>
+  <img src="https://i.imgur.com/MNdz8wP.png"
+       alt="debian_desktop">
+  <figcaption>
+  </figcaption>
+</figure>
 
 ## 어쩌다 그런 생각을...
 

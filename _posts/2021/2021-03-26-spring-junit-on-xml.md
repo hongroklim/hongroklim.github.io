@@ -1,12 +1,19 @@
 ---
 date: 2021-03-26 13:20:00 +0900
-title: 유연하게 Spring JUnit 설정하기
-excerpt: 꽉 막힌 Spring Framework XML 설정환경에서 Java Configuration으로 테스트를 구사하는 전략
-header:
-  overlay_image: https://user-images.githubusercontent.com/59322692/112853559-efcd8200-90e7-11eb-9d66-1ec8e99b1c6a.png
-  caption: "&copy; [**spring**](https://spring.io), [**junit**](https://github.com/junit-team/junit4)"
+title: 유연한 Spring JUnit 설정
+excerpt: XML 설정 위에 Java  설정 올려서 테스트 해보자
 categories: java
 ---
+
+<figure>
+  <img src="https://i.imgur.com/eaL88CD.png"
+       alt="spring_with_junit">
+  <figcaption>
+    출처: 
+    <a href="https://spring.io">Spring</a>,
+    <a href="https://github.com/junit-team/junit4">Junit</a>
+  </figcaption>
+</figure>
 
 ## 테스트를 위한 Context의 필요성
 

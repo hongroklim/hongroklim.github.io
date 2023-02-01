@@ -1,7 +1,7 @@
 ---
 date: 2021-03-29 23:45:00 +0900
 title: Oracle PIVOT 함수 이해하기
-excerpt: 매번 구글에 PIVOT 문법 찾지말고 한 번에 씹어먹자
+excerpt: 매번 구글에 문법 찾지말고 이 기회에 씹어먹자
 categories: bigdata
 ---
 

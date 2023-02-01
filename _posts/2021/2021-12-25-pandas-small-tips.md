@@ -1,11 +1,16 @@
 ---
 date: 2021-12-25 14:00:00 +0900
 title: Pandas를 써본 티를 내는 방법
-excerpt: 어느날 Jupyter Notebook을 열었을 때 기억했으면 하는 습관들
-header:
-    overlay_image: https://user-images.githubusercontent.com/59322692/147387245-c06d4f6b-dd5f-471e-be5d-fa2a3caa3266.png
+excerpt: 앞으로 Jupyter를 쓸 때 기억났으면 하는 습관들
 categories: bigdata
 ---
+
+<figure>
+  <img src="https://i.imgur.com/WG76BRn.png"
+       alt="jupyter_with_pandas">
+  <figcaption>
+  </figcaption>
+</figure>
 
 지금까지 Python IDE만 쓰다가 이번 학기를 통해 Jupyter Notebook을 처음 써보게 되었다. 너무 편했다.
 앞으로 간단히 데이터 분석할 일이 있을 때 자연스럽게 Pandas를 쓸 것 같으니 소소한 습관들을 정리하고자 한다.

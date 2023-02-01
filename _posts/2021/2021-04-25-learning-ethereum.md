@@ -2,9 +2,6 @@
 date: 2021-04-25 23:08:00 +0900
 title: 이더리움 공부를 시작해볼까
 excerpt: "'비트코인 가즈아'를 지켜보기만 하던 어떤 개발자의 생각"
-header:
-  overlay_image: https://user-images.githubusercontent.com/59322692/115996783-b2431280-a61b-11eb-9933-1ae1e4fe5811.png
-  caption: "&copy; [**O'reilly**](https://www.oreilly.com/)"
 categories: diary
 ---
 
@@ -17,7 +14,7 @@ categories: diary
 더 높은 수익을 기대하는 돈들은 암호화폐 시장으로 눈을 돌렸고, 전에 있었던 코인 열풍보다 더 심한 태풍이 불어닥쳤다.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/115999117-7f058100-a625-11eb-824f-a7dba1c10eba.png"
+  <img src="https://i.imgur.com/eXrBegD.png"
        alt="content_01" style="max-width: 400px">
   <figcaption>2018년 무렵과 2021년의 코인열풍. 그 때는 아무것도 아니었구나. / 출처 : Google</figcaption>
 </figure>
@@ -31,7 +28,7 @@ categories: diary
 처럼 느껴지기 시작했다.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/115999196-d9064680-a625-11eb-8b0b-c841012152e7.png"
+  <img src="https://i.imgur.com/s3RDZys.png"
        alt="content_02" style="width:70%">
   <figcaption>암호화폐로 배달을 시켜먹는 세상이라니. 그저 멍때리고 있을 뿐이다. / 출처 : BBQ</figcaption>
 </figure>
@@ -47,7 +44,7 @@ categories: diary
 [장기적으로 보면 우린 모두 죽기 때문이다](https://ko.wikipedia.org/wiki/%EC%A1%B4_%EB%A9%94%EC%9D%B4%EB%84%88%EB%93%9C_%EC%BC%80%EC%9D%B8%EC%8A%A4)
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/115999412-9729d000-a626-11eb-93a9-1f68107c7149.png"
+  <img src="https://i.imgur.com/oeNj91b.png"
        alt="content_03" style="max-width: 350px">
   <figcaption>John Maynard Keynes. 정부가 시장에 개입하는 것을 옹호하였다. / 출처 : 위키백과</figcaption>
 </figure>
@@ -60,7 +57,7 @@ categories: diary
 이더리움을 통해 블록체인 기술을 알아볼 생각이다.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/115999466-d9531180-a626-11eb-9112-8a1072982f98.png"
+  <img src="https://i.imgur.com/wRcmKqO.png"
        alt="content_04">
   <figcaption>Ethereum이 온 세상에 광명을 비추고 있다. (상상도) / <a href="https://ethereum.org/en/">출처 : Ethereum</a></figcaption>
 </figure>
@@ -72,7 +69,7 @@ categories: diary
 식으로 보여서 이 책의 원어를 선택하게 되었다.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/115996783-b2431280-a61b-11eb-9933-1ae1e4fe5811.png"
+  <img src="https://i.imgur.com/s9WXZG9.png"
        alt="content_05" style="width:60%">
   <figcaption>Mastering Ethereum. 원어는 언제나 간지난다. / <a href="https://www.oreilly.com/">출처 : O'reilly</a></figcaption>
 </figure>

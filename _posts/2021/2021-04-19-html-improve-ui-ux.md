@@ -1,9 +1,7 @@
 ---
 date: 2021-04-19 22:54:00 +0900
-title: 나만의 웹페이지 UI/UX 개선하기(1/2)
+title: 나만의 웹페이지 UI/UX 개선하기 (1/2)
 excerpt: backend가 아닌 퍼블리싱부터 시작해보는 개발 경험담
-header:
-  overlay_image: https://user-images.githubusercontent.com/59322692/115428336-4177b100-a23d-11eb-96e8-285df511450e.png
 categories: web
 ---
 
@@ -13,7 +11,7 @@ categories: web
 다행인건 DBR 홈페이지에서 하루 2편의 글을 제공하고 있었는데, 이를 잘만 이용하면 무한으로 즐길 수 있겠다고 생각했다. 그래서 탄생한 것이 바로 DBR Viewer(1세대)이다.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/115415400-d8d70700-a231-11eb-8273-201a37d18f52.png"
+  <img src="https://i.imgur.com/inqAfXm.png"
        alt="content_01">
   <figcaption>DBR Viewer 1세대. (좌) 발행정보, (우) 아티클</figcaption>
 </figure>
@@ -39,7 +37,7 @@ DBR Viewer 1세대 에서는 DBR 홈페이지에 있는 html에서 필요한 부
 2세대에선 유연한 퍼블리싱을 위해 html에서 필요한 정보만 뽑아내 json 형태로 가공한 뒤 이를 html 템플릿에 보여주는 형식으로 바꿀 생각이다.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/115421669-1b4f1280-a237-11eb-9e12-5acf4cfe8b02.png"
+  <img src="https://i.imgur.com/jcV8eK3.png"
        alt="content_02">
   <figcaption>1세대(상)와 2세대(하)의 작동방식 차이</figcaption>
 </figure>
@@ -50,7 +48,7 @@ DBR Viewer 1세대 에서는 DBR 홈페이지에 있는 html에서 필요한 부
 나는건 어쩔 수 없다. 기존 1세대의 화면을 snapshot 찍듯이 html로 저장하고 이 블로그 테마의 layout을 참고하여 기본적인 html부터 만들었다.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/115423432-c6ac9700-a238-11eb-956d-556e7eedc899.png"
+  <img src="https://i.imgur.com/GrJSAmH.png"
        alt="content_03">
   <figcaption>1세대(좌) 화면에서 html 요소만 추려낸 결과(우)</figcaption>
 </figure>
@@ -60,7 +58,7 @@ DBR Viewer 1세대 에서는 DBR 홈페이지에 있는 html에서 필요한 부
 손쉽게 개발할 수 있었다. 제법 그럴듯하게 만들어진 화면을 과녁으로 삼아서 본격적인 개발을 시작하겠다.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/115424006-3cb0fe00-a239-11eb-8219-40bb26406f0f.png"
+  <img src="https://i.imgur.com/sQyjA4Y.png"
        alt="content_04"
        style="width: 70%">
   <figcaption>블로그 레이아웃을 참고하기 위한 퍼블리싱 전용 페이지</figcaption>
@@ -72,10 +70,10 @@ frontend에서 봤을 때 1세대에서 2세대로의 가장 큰 변화는 Index
 json형태로 들고 있어야 이들을 잘 활용할 수 있을 것이다. 그래서 DBR 홈페이지에서 json을 추출하려고 하는데, 만약 그렇게 하게 된다면 frontend에서
 backend로의 개발과정을 벗어나버린다. 이 문제를 해결하는 방법으로 떠올린 것이 일단 json 파일을 만드는 것이다. json으로 파싱을 했던, IndexedDB에다
 캐싱을 했던 간에 javascript 입장에서는 결국엔 json 형식의 데이터를 전달받을 뿐이다. backend의 세부 로직은 건너뛰고 발행정보와 아티클 정보를
-담고 있는 *.json 파일을 만들었다. 그리고 일단은 1세대에서 사용하던 방식인 ajax로 json 데이터를 가져오도록 한다.
+담고 있는 \*.json 파일을 만들었다. 그리고 일단은 1세대에서 사용하던 방식인 ajax로 json 데이터를 가져오도록 한다.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/59322692/115425304-79c9c000-a23a-11eb-9a50-255bef6b23aa.png"
+  <img src="https://i.imgur.com/5rc9fNt.png"
        alt="content_05">
   <figcaption>기존 backend 설계(상)와 frontend 개발에 쓰일 방식(하)</figcaption>
 </figure>
