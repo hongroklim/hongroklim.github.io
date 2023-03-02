@@ -413,6 +413,10 @@ body {
 
       white-space: nowrap;
       padding: ($spacing-unit * 0.5) ($spacing-unit * 0.75);
+
+      &:visited {
+        color: $link-base-color;
+      }
     }
   }
 
@@ -427,13 +431,20 @@ body {
 
       .title {
         .label {
-          font-weight: $base-font-weight * 1.25;
-          text-shadow: $brand-color 0px 1px 2px;
+          font-weight: $base-font-weight * 1.5;
+
+          &:visited {
+            color: $link-base-color;
+          }
         }
 
         .loc {
           display: block;
           font-style: italic;
+
+          &:visited {
+            color: $link-base-color;
+          }
         }
 
         .time {
