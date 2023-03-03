@@ -26,7 +26,7 @@ permalink: /cv/
 <div class="blocks">
   <span>Business Intelligence</span>
   <span>Distributed Computing</span>
-  <span>Blockchain</span>
+  <span>IT Governance</span>
 </div>
 
 <h2>Education</h2>
@@ -152,7 +152,7 @@ permalink: /cv/
       <span class="time">Dec 2021</span>
     </div>
     <div class="content">
-      <div class="ul"><u><b>1st place</b> in SKT AI Curriculum-Hanyang University IC-PBL</u></div>
+      <div class="ul"><u><b>1st place</b> in 2021 SKT AI Curriculum-Hanyang University IC-PBL</u></div>
       <div class="ul">Trained Mask R-CNN model with TACO dataset. Developed real-time dashboard with Django, PostgreSQL and React.</div>
     </div>
   </div>
@@ -201,6 +201,128 @@ permalink: /cv/
       <div class="ul">
         Developed backend with Django and frontend with jQuery.
         Designed models and queries using ORM.
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2>Activities</h2>
+
+<div class="elements">
+  <div class="element">
+    <div class="title">
+      <span class="label">
+        Dev Team Member of Blockchain Club
+      </span>
+      <a href="https://clubs.ntu.edu.sg/ntublockchain/"
+         class="loc" target="_blank" rel="nofollow noopener noreferrer">
+          Dev Subcommittee, Blockchain@NTU, Singapore
+      </a>
+      <span class="time">Aug 2022 - Dec 2022</span>
+    </div>
+    <div class="content">
+      <div class="ul">
+        Studied Solidity and DApp with teammates. Developed NFT Marketplace
+        Web Application with React, node.js and Solidity.
+      </div>
+    </div>
+  </div>
+
+  <div class="element">
+    <div class="title">
+      <span class="label">
+        Teaching Assistant of 『AI-X: Deep Learning』 Course
+      </span>
+      <a href="https://www.hanyang.ac.kr/web/eng"
+         class="loc" target="_blank" rel="nofollow noopener noreferrer">
+          Hanyang University, Seoul, Korea
+      </a>
+      <span class="time">Mar 2022 - Jun 2022</span>
+    </div>
+    <div class="content">
+      <div class="ul">
+        Assisted in grading assignments and final exams. Answered questions
+        related to lecture contents and assignments.
+      </div>
+    </div>
+  </div>
+
+  <div class="element">
+    <div class="title">
+      <span class="label">
+        Craftsman Information Processing
+      </span>
+      <a href="https://www.hrdkorea.or.kr/3/1/1?k=52521"
+         class="loc" target="_blank" rel="nofollow noopener noreferrer">
+          Human Resources Development Service of Korea
+      </a>
+      <span class="time">Oct 2018</span>
+    </div>
+    <div class="content">
+      <div class="ui">
+        Certification for information system implementation, testing,
+        operation, and maintenance.
+      </div>
+    </div>
+  </div>
+
+  <div class="element">
+    <div class="title">
+      <span class="label">
+        Volunteer Tutor
+      </span>
+      <a href="http://teachforkorea.or.kr"
+         class="loc" target="_blank" rel="nofollow noopener noreferrer">
+          Teach For Korea Incorporated Association
+      </a>
+      <span class="time">Mar 2018 - Mar 2019</span>
+    </div>
+    <div class="content">
+      <div class="ul">
+        Teach Mathematics for high school students. Manage the tutor
+        recruitment as a head of personnel department.
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2>Self-Directed Learning</h2>
+
+<div class="elements">
+  <div class="element">
+    <div class="title">
+      <a href="https://www.coursera.org/user/11fbe494d4c6f072cb811be9b92b37a8"
+         class="label" target="_blank" rel="nofollow noopener noreferrer">
+          Coursera
+      </a>
+      <span class="loc">9 Courses Completed</span>
+    </div>
+    <div class="content">
+      <div class="ul">
+        - Applied AI with DeepLearning<br>
+        - Advanced Machine Learning and Signal Processing<br>
+        - Big Data Analysis with Scala and Spark<br>
+        - Parallel programming<br>
+        - Functional Program Design in Scala (and more)
+      </div>
+    </div>
+  </div>
+
+  <div class="element">
+    <div class="title">
+      <a href="https://trailblazer.me/id/rokong"
+         class="label" target="_blank" rel="nofollow noopener noreferrer">
+          Trailhead 
+      </a>
+      <span class="loc">16 Badges Earned</span>
+    </div>
+    <div class="content">
+      <div class="ul">
+        - Salesforce Skills and Experience Building<br>
+        - Salesforce Career Exploration for Students<br>
+        - Salesforce CRM<br>
+        - Platform Development Basics<br>
+        - The Tableau Workflow (and more)
       </div>
     </div>
   </div>
