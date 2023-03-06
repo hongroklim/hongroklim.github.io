@@ -216,7 +216,7 @@ permalink: /cv/
       </span>
       <a href="https://clubs.ntu.edu.sg/ntublockchain/"
          class="loc" target="_blank" rel="nofollow noopener noreferrer">
-          Dev Subcommittee, Blockchain@NTU, Singapore
+          Blockchain@NTU, Singapore
       </a>
       <span class="time">Aug 2022 - Dec 2022</span>
     </div>
@@ -312,7 +312,7 @@ permalink: /cv/
     <div class="title">
       <a href="https://trailblazer.me/id/rokong"
          class="label" target="_blank" rel="nofollow noopener noreferrer">
-          Trailhead 
+          Trailhead, Salesforce.com
       </a>
       <span class="loc">16 Badges Earned</span>
     </div>
