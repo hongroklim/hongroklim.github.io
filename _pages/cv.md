@@ -38,10 +38,8 @@ permalink: /cv/
          class="label" target="_blank" rel="nofollow noopener noreferrer">
           Hanyang University, Seoul, Korea
       </a>
+      <span class="loc">B.S. in Information Systems</span>
       <span class="time">Mar 2018 - Present</span>
-    </div>
-    <div class="content">
-      <div class="body">B.S. in Information Systems</div>
     </div>
   </div>
 
@@ -70,7 +68,7 @@ permalink: /cv/
       <span class="time">Oct 2014 – Nov 2015</span>
     </div>
     <div class="content">
-      <div class="ul"><b>Tracks</b>: Elementary, Advanced (Web Hacking)</div>
+      <div class="ul"><b>Tracks</b>: Elementary('14) · Advanced(Web Hacking, '15)</div>
     </div>
   </div>
 </div>
@@ -117,7 +115,7 @@ permalink: /cv/
       <span class="time">Mar 2019 – Jan 2021</span>
     </div>
     <div class="content">
-      <div class="ul"><b>Roles</b>: Manage Wartime HR/ORG Systems, Extract HR Stats</div>
+      <div class="ul"><b>Roles</b>: Managed Wartime HR · ORG Systems and Databases</div>
     </div>
   </div>
 </div>
@@ -223,7 +221,7 @@ permalink: /cv/
     <div class="content">
       <div class="ul">
         Studied Solidity and DApp with teammates. Developed NFT Marketplace
-        Web Application with React, node.js and Solidity.
+        Web Application with Solidity, node.js and React.
       </div>
     </div>
   </div>
@@ -241,8 +239,8 @@ permalink: /cv/
     </div>
     <div class="content">
       <div class="ul">
-        Assisted in grading assignments and final exams. Answered questions
-        related to lecture contents and assignments.
+        Managed students' attendance and submissions. Assisted in establishing
+        evaluation criteria and grading final ML/DL projects.
       </div>
     </div>
   </div>
@@ -260,7 +258,7 @@ permalink: /cv/
     </div>
     <div class="content">
       <div class="ui">
-        Certification for information system implementation, testing,
+        Certification of information system implementation, testing,
         operation, and maintenance.
       </div>
     </div>
@@ -279,14 +277,14 @@ permalink: /cv/
     </div>
     <div class="content">
       <div class="ul">
-        Teach Mathematics for high school students. Manage the tutor
+        Mathematics teacher for high school students. Managed the tutor
         recruitment as a head of personnel department.
       </div>
     </div>
   </div>
 </div>
 
-<h2>Self-Directed Learning</h2>
+<h2>Learning</h2>
 
 <div class="elements">
   <div class="element">
@@ -295,15 +293,15 @@ permalink: /cv/
          class="label" target="_blank" rel="nofollow noopener noreferrer">
           Coursera
       </a>
-      <span class="loc">9 Courses Completed</span>
+      <span class="loc">10 Courses Completed</span>
     </div>
     <div class="content">
       <div class="ul">
         - Applied AI with DeepLearning<br>
         - Advanced Machine Learning and Signal Processing<br>
         - Big Data Analysis with Scala and Spark<br>
-        - Parallel programming<br>
-        - Functional Program Design in Scala (and more)
+        - Functional Programming in Scala Capstone<br>
+        - Parallel programming (and more)
       </div>
     </div>
   </div>
@@ -312,7 +310,7 @@ permalink: /cv/
     <div class="title">
       <a href="https://trailblazer.me/id/rokong"
          class="label" target="_blank" rel="nofollow noopener noreferrer">
-          Trailhead, Salesforce.com
+          Trailhead, SFDC
       </a>
       <span class="loc">16 Badges Earned</span>
     </div>

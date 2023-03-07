@@ -1,14 +1,14 @@
 ---
 date: 2023-02-01 10:00:00 +0900
-title: 머신러닝이 분산컴퓨팅을 만난다면
-excerpt: Scala + Spark + ML 이 조합 찬성이오
+title: 머신러닝이 분산컴퓨팅을 만날 때
+excerpt: Scala + Spark + ML 이 조합 찬성일세
 categories: bigdata
 ---
 
 ## 아무 것도 모르던 시절
 
-2021년 '인공지능및응용'을 수강하며 [NLP 관련 프로젝트](https://2021hyt6-techblog.github.io/projects-blog/ai/)
-를 진행했다. Amazon 리뷰와 별점을 가지고 문장의 긍정/부정을 가리는 모델을
+2021년 '인공지능및응용'을 수강하며 [NLP 관련 프로젝트](https://2021hyt6-techblog.github.io/projects-blog/ai/)를
+진행했다. Amazon 리뷰와 별점을 가지고 문장의 긍정/부정을 가리는 모델을
 개발하고 있었다. 36만건의 학습 데이터셋을 다루었는데 이게 보통 일이 아니었다.
 Python에서 [pandas](https://pandas.pydata.org)와 [spaCy](https://spacy.io)
 라이브러리 등을 써서 전처리를 했는데 (이미지도 아닌 것이) 엄청난 시간이
@@ -41,26 +41,26 @@ if __name__ == '__main__':
 
 효과는 엄청났다. 정확하게 비교해보진 않았지만 Single-process 대비 20배 이상
 빨랐던 것 같다. '수업시간에 배운 내용을 이렇게 써먹을 줄이야' 하면서 혼자
-좋아했던 기억이 난다. 2023년 [SparkML](https://spark.apache.org/docs/latest/ml-guide.html)
-을 공부하던 나는 분산컴퓨팅 기술이 머신러닝에 아주 적극적으로 활용되고 있다는
+좋아했던 기억이 난다. 2023년 [SparkML](https://spark.apache.org/docs/latest/ml-guide.html)을
+공부하던 나는 분산컴퓨팅 기술이 머신러닝에 아주 적극적으로 활용되고 있다는
 것을 알게 되었다. 그러면서 이 프로젝트가 떠올랐고, 데이터 전처리 과정을
 개선해보고 싶은 마음이 생겼다.
 
 ## Scala 좀 써볼까나
 
-Python으로 개발한 프로젝트를 이번엔 [Scala](https://www.scala-lang.org)
-를 통해 개발하려고 한다. pyspark로 Python에서 Spark를 쓸 수 있었지만, 같은
+Python으로 개발한 프로젝트를 이번엔 [Scala](https://www.scala-lang.org)를
+통해 개발하려고 한다. pyspark로 Python에서 Spark를 쓸 수 있었지만, 같은
 언어로 개발하게 되면 단순하게 복붙만 할까봐 일부러 Scala로 개발하며 데이터
 전처리 과정을 온전히 생각해보고 싶었다.
 
 ### Kernel 추가
 
-[almond](https://almond.sh) 를 통해 [Jupyter Notebook](https://jupyter.org)
-에서 개발해보려 한다. Scala + Spark 개발은 [zeppelin](https://zeppelin.apache.org)
-으로 하고 있었다. 데이터 시각화는 아주 훌륭했지만, 그 뭐랄까 타이핑이 손에
+[almond](https://almond.sh) 를 통해 [Jupyter Notebook](https://jupyter.org)에서
+개발해보려 한다. Scala + Spark 개발은 [zeppelin](https://zeppelin.apache.org)으로
+하고 있었다. 데이터 시각화는 아주 훌륭했지만, 그 뭐랄까 타이핑이 손에
 감기지 않는다고 해야 하나... Notebook 만큼의 개발 생산성이 나오질 않았다.
-(도구 탓을 하는 걸 보니 나는 아직 장인이 아닌가보다) [Coursier](https://get-coursier.io)
-만 설치되어 있다면 Scala Kernel을 추가하는 건 일도 아니었다.
+(도구 탓을 하는 걸 보니 나는 아직 장인이 아닌가보다) [Coursier](https://get-coursier.io)만
+설치되어 있다면 Scala Kernel을 추가하는 건 일도 아니었다.
 
 ```sh
 coursier launch --fork almond:0.13.2 --scala 2.12 -- --install
@@ -316,11 +316,11 @@ val evaluator = new MulticlassClassificationEvaluator()
 
 ## 결론: 빠르다 빨라 현대사회
 
-데이터 전처리 부터 모델 평가까지 이렇게 빨리 할 줄 몰랐다. 만약에 클라우드에서
+데이터 전처리부터 모델 평가까지 이렇게 빨리 할 줄 몰랐다. 만약에 클라우드에서
 여러 인스턴스를 띄워놓았으면 거의 실시간으로 했을 지도 모른다. 2021년에
-프로젝트를 진행할 때는 모든 단계가 오래걸리다 보니 Tving 구독하고 ['유미의
-세포들 시즌1'](https://www.cjenm.com/ko/featured-contents/유미의-세포들/)
-을 결과값이 나올 때 까지 틈틈이 봤다. 하지만 이번에 Spark로 개발했을 때는
-한눈을 팔 틈도 없었다. [Spark UI](https://spark.apache.org/docs/latest/web-ui.html)
-에서 각 Thread 별 진척을 살펴보다보면 어느 새 모든 Job이 끝나있었다. 앞으로
-Spark를 애용할 것 같은 예감이 든다.
+프로젝트를 진행할 때 모든 코드블록의 실행이 오래걸리다 보니 결과값이 나올 때 까지
+['유미의 세포들 시즌 1'](https://www.cjenm.com/ko/featured-contents/유미의-세포들/)
+을 틈틈이 봤다. 하지만 이번에 Spark로 개발했을 때는 한눈을 팔 틈도 없었다.
+[Spark UI](https://spark.apache.org/docs/latest/web-ui.html)에서
+각 Thread 별 진척을 살펴보다보면 어느 새 모든 Job이 끝나있었다. 앞으로 Spark를
+자주 애용할 것 같은 예감이 든다.
