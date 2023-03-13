@@ -82,7 +82,7 @@ permalink: /cv/
       <span class="label">Intern - System Analysis & Design</span>
       <a href="https://www.samsung.com/us/"
          class="loc" target="_blank" rel="nofollow noopener noreferrer">
-          Samsung Electronics
+          Samsung Electronics, Korea
       </a>
       <span class="time">Mar 2023 – Present</span>
     </div>
