@@ -205,11 +205,13 @@ bool predict (const int& e) { return e == E; }
 
 ### Set
 
-값이 중복되지 않는 배열이 필요할 때 `set`을 사용하면 된다.
+값이 중복되지 않는 배열이 필요할 때 `set`을 사용하면 된다. 내부적으로 `tree`로
+구현되어있기 때문에 Min-heap 또는 Max-heap이 필요할 때도 쓸 수 있다.
 
 ```cpp
 
 ```
+
 s.top() 전에는 !s.empty() 확인
 
 ### Map
@@ -233,6 +235,14 @@ s.top() 전에는 !s.empty() 확인
 ### Use Delta
 
 ### Memoization
+
+### Adjacent Table
+
+Primitive type을 최대한 활용해 구성 방법
+
+len(1), 2, 4, X, X
+len(4), 2, 3, 4, 7
+len(3), 1, 4, 5, X
 
 ## Number of Cases
 
