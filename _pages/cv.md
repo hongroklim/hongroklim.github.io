@@ -115,7 +115,7 @@ permalink: /cv/
       <span class="time">Mar 2019 – Jan 2021</span>
     </div>
     <div class="content">
-      <div class="ul"><b>Roles</b>: Managed Wartime HR · ORG Systems and Databases</div>
+      <div class="ul"><b>Roles</b>: Manage Wartime HR · ORG Systems and Databases</div>
     </div>
   </div>
 </div>
@@ -210,7 +210,7 @@ permalink: /cv/
   <div class="element">
     <div class="title">
       <span class="label">
-        Dev Team Member of Blockchain Club
+        Member of Dev Team in Blockchain Club
       </span>
       <a href="https://clubs.ntu.edu.sg/ntublockchain/"
          class="loc" target="_blank" rel="nofollow noopener noreferrer">
