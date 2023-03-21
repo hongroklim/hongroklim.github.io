@@ -24,7 +24,7 @@ categories: dev
 Timeout만 계속 나왔다.
 
 <figure>
-  <img src="https://i.imgur.com/RsvJn5s.png"
+  <img src="https://i.imgur.com/Ec6kxSQ.jpg"
        alt="failures">
   <figcaption>
     무수히 많은 Timeout들. 자정이 넘는 시간까지 시도했구나.
@@ -192,7 +192,7 @@ Disjoint Set을 모르던건 아니었다. 2021년 2학기 알고리즘및응용
 있었다. 하지만 이번에 2년 전에 배운 슬라이들을 열어보니 그게 아니었다.
 
 <figure>
-  <img src="https://i.imgur.com/0DDFMKD.jpeg"
+  <img src="https://i.imgur.com/MtuJlKv.jpg"
        alt="disjoint_set">
   <figcaption>
     Disjoint Set이 Graph에서도 쓰일 수 있다니! 그걸 또 이미 배웠다니!

@@ -58,15 +58,11 @@ printf("%05d\n", i);    // zero padding
 입출력이 빈번한 경우에는 속도 증가를 위해 다음과 같은 코드를 출력 전 사용한다.
 
 ```cpp
-/*
- * C 표준 stream과 C++ 표준 stream의 동기화를 끊는다.
- * 그러므로 C와 C++ 입출력 형식을 혼용하면 안 된다.
- */
+// C 표준 stream과 C++ 표준 stream의 동기화를 끊는다.
+// 그러므로 C와 C++ 입출력 형식을 혼용하면 안 된다.
 ios_base::sync_with_stdio(false);
 
-/*
- * cin을 cout으로부터 untie 한다.
- */
+// cin을 cout으로부터 untie 한다.
 cin.tie(NULL);
 ```
 
@@ -209,24 +205,136 @@ bool predict (const int& e) { return e == E; }
 구현되어있기 때문에 Min-heap 또는 Max-heap이 필요할 때도 쓸 수 있다.
 
 ```cpp
+#include <set>
 
+set<int> s;
+set<int, greater> s;
+
+s.insert(e);    // .second = bool
+s.erase(it);
+
+s.find(e);      // return it
 ```
-
-s.top() 전에는 !s.empty() 확인
 
 ### Map
 
+key, value 쌍을 관리할 때 사용하면 된다. 곰곰이 생각해보면 `map`을 안 써도
+되는 방법이 있을 수 있으니 신중하게 사용해야 한다.
+
+```cpp
+#include <map>
+
+map<char, int> m;
+m['a'] = 10;
+m['b'] = 20;
+
+m.erase(it);
+m.erase(k);
+
+m.find(k);    // ->second = v
+
+m.insert(pair<char, int>(k, v));  // .second = bool
+```
+
 ### Stack
+
+LIFO가 필요한 상황, 대표적으로 DFS 탐색 시 사용하면 된다.
+
+```cpp
+#include <stack>
+
+stack<int> s;
+
+s.push(e);
+s.pop();
+
+if (!s.empty()) s.top();
+```
 
 ### Queue
 
+FIFO가 필요한 상황, 대표적으로 BFS 탐색 시 사용하면 된다.
+
+```cpp
+#include <queue>
+
+queue<int> q;
+
+q.push(e);
+q.pop();
+
+if (!q.empty()) {
+  q.front();
+  q.back();
+}
+```
+
+### Priority Queue
+
+정렬 상태를 유지해서 배열을 관리하고 싶을 때 사용하면 된다.
+
+```cpp
+#include <queue>
+#include <vector>
+
+priority_queue<int> q;
+priority_queue<int, vector<int>, greater<int>> gt_q;
+
+q.push(e);
+q.pop();
+
+if(!.q.empty()) q.top;
+```
+
+기본형으로 `top()`에는 가장 큰 요소가 위치한다. 반대로 하고 싶다면 위의
+`gt_q`와 같이 선언하면 된다.
+
 ### Bitset
+
+bit 연산을 할 때 `bool[]` 보다 더 효율적으로 다룰 수 있다.
+
+```cpp
+#include <bitset>
+
+bitset<4> b;
+
+b[1] = 1;
+b[3] = b[1];
+
+b.flip();
+
+b.all(); b.any(); b.none();   // return bool
+
+b.count();
+b.size();
+
+b.reset();
+```
 
 ## Sort
 
-### Merge Sort
+STL에 있는 `sort`를 사용하면 편하지만 어떨 때는 가볍게 정렬 함수를 만들어서 쓸
+수도 있다.
 
 ### Quick Sort
+
+```cpp
+int A[N];
+
+void partition(int left, int right) {
+  // TODO
+}
+
+void quick_sort(int left, int right) {
+  if (left < right) {
+    int pivot = partition(left, right);
+    quick_sort(left, pivot-1);
+    quick_sort(pivot, right);
+  }
+}
+```
+
+### Merge Sort
 
 ## Techniques
 
