@@ -277,8 +277,16 @@ if (!q.empty()) {
 #include <queue>
 #include <vector>
 
+typedef struct custom_s{
+  int a, b;
+  bool operator<(const custom_s c) const {
+      return this->a < c.a;
+  }
+} custom_t;
+
 priority_queue<int> q;
 priority_queue<int, vector<int>, greater<int>> gt_q;
+priority_queue<custom_t> st_q;
 
 q.push(e);
 q.pop();
@@ -287,7 +295,7 @@ if(!.q.empty()) q.top;
 ```
 
 기본형으로 `top()`에는 가장 큰 요소가 위치한다. 반대로 하고 싶다면 위의
-`gt_q`와 같이 선언하면 된다.
+`gt_q`와 같이 선언하면 된다. 구조체를 쓸 때는 `operator<`를 overload 한다.
 
 ### Bitset
 
@@ -321,8 +329,26 @@ STL에 있는 `sort`를 사용하면 편하지만 어떨 때는 가볍게 정렬
 ```cpp
 int A[N];
 
-void partition(int left, int right) {
-  // TODO
+void swap(int *a, int *b) {
+  int tmp = *a;
+  *a = *b;
+  *b = tmp;
+}
+
+int partition(int left, int right) {
+  int i = left+1, j = right;
+  
+  while (i < right && A[i] <= A[left]) i++;
+  while (left <= j && A[j] >= A[left]) j--;
+
+  if (i <= j) {
+    swap(&A[i], &A[j]);
+  } else {
+    // change pivot
+    swap(&A[left], &A[j]);
+  }
+
+  return j;
 }
 
 void quick_sort(int left, int right) {
@@ -332,9 +358,18 @@ void quick_sort(int left, int right) {
     quick_sort(pivot, right);
   }
 }
+
+int main() {
+  quick_sort(0, N-1);
+  return 0;
+}
 ```
 
 ### Merge Sort
+
+```cpp
+
+```
 
 ## Techniques
 
