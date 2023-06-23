@@ -24,8 +24,8 @@ permalink: /cv/
 <h2>Interests</h2>
 
 <div class="blocks">
-  <span>Business Intelligence</span>
   <span>Distributed Computing</span>
+  <span>Business Intelligence</span>
   <span>IT Governance</span>
 </div>
 
@@ -80,14 +80,14 @@ permalink: /cv/
   <div class="element">
     <div class="title">
       <span class="label">Intern - System Analysis & Design</span>
-      <a href="https://www.samsung.com/us/"
+      <a href="https://semiconductor.samsung.com"
          class="loc" target="_blank" rel="nofollow noopener noreferrer">
-          Samsung Electronics, Korea
+	  Device Solutions, Samsung Electronics, Korea
       </a>
-      <span class="time">Mar 2023 – Present</span>
+      <span class="time">Mar 2023 – June 2023</span>
     </div>
     <div class="content">
-      <div class="ul"><b>Dept</b>: MIS Team, Innovation Center, DS Division</div>
+      <div class="ul"><b>Dept</b>: SCM Part, MIS Team, Innovation Center</div>
     </div>
   </div>
 
@@ -207,6 +207,24 @@ permalink: /cv/
 <h2>Activities</h2>
 
 <div class="elements">
+  <div class="element">
+    <div class="title">
+      <span class="label">
+      	Next-Generation Security Leader Training Program
+      </span>
+      <a href="https://en.kitribob.kr"
+         class="loc" target="_blank" rel="nofollow noopener noreferrer">
+      	Korea Information Technology Research Institute
+      </a>
+      <span class="time">Aug 2023 - Present</span>
+    </div>
+    <div class="content">
+      <div class="ul">
+      	12th Trainee of Security Consulting Track in Best of the Best(BoB).
+      </div>
+    </div>
+  </div>
+
   <div class="element">
     <div class="title">
       <span class="label">
