@@ -38,7 +38,7 @@ permalink: /cv/
          class="label" target="_blank" rel="nofollow noopener noreferrer">
           Hanyang University, Seoul, Korea
       </a>
-      <span class="loc">B.S. in Information Systems</span>
+      <span class="loc">B.S. in Information Systems, College of Engineering</span>
       <span class="time">Mar 2018 - Present</span>
     </div>
   </div>
@@ -84,10 +84,10 @@ permalink: /cv/
          class="loc" target="_blank" rel="nofollow noopener noreferrer">
 	  Device Solutions, Samsung Electronics, Korea
       </a>
-      <span class="time">Mar 2023 – June 2023</span>
+      <span class="time">Mar 2023 – Jun 2023</span>
     </div>
     <div class="content">
-      <div class="ul"><b>Dept</b>: SCM Part, MIS Team, Innovation Center</div>
+      <div class="ul"><b>Dept</b>: Semiconductor Memory, SCM, MIS, Innovation Center</div>
     </div>
   </div>
 
@@ -123,6 +123,25 @@ permalink: /cv/
 <h2>Projects</h2>
 
 <div class="elements">
+  <div class="element">
+    <div class="title">
+      <a href="https://github.com/hongroklim/db-graph-gen"
+         class="label" target="_blank" rel="nofollow noopener noreferrer">
+          Automatic Dataflow Diagram Generating System
+      </a>
+      <div class="loc">Internship Assignment</div>
+      <span class="time">Jun 2023</span>
+    </div>
+    <div class="content">
+      <div class="ul"><u>Exhibited at 2023 DX Festival by Innovation Center,
+      Samsung DS</u></div>
+      <div class="ul">
+        Automated data in/out analysis with ANTLR parser, and dataflow tracking ·
+        vizualizing using Spring Boot.
+      </div>
+    </div>
+  </div>
+
   <div class="element">
     <div class="title">
       <a href="https://github.com/hongroklim/quick-atnd"
@@ -176,7 +195,7 @@ permalink: /cv/
           Containerized Spring Development Environment
       </a>
       <div class="loc">Personal Side Project</div>
-      <span class="time">Jan 2021</span>
+      <span class="time">Dec 2020</span>
     </div>
     <div class="content">
       <div class="ul">
