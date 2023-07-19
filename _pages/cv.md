@@ -87,7 +87,7 @@ permalink: /cv/
       <span class="time">Mar 2023 – Jun 2023</span>
     </div>
     <div class="content">
-      <div class="ul"><b>Dept</b>: Semiconductor Memory, SCM, MIS, Innovation Center</div>
+      <div class="ul"><b>Dept</b>: Semiconductor Memory, SCM, MIS Team, Innovation Center</div>
     </div>
   </div>
 
@@ -235,7 +235,7 @@ permalink: /cv/
          class="loc" target="_blank" rel="nofollow noopener noreferrer">
       	Korea Information Technology Research Institute
       </a>
-      <span class="time">Aug 2023 - Present</span>
+      <span class="time">Jul 2023 - Present</span>
     </div>
     <div class="content">
       <div class="ul">
