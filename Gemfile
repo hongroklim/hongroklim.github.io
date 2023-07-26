@@ -32,5 +32,7 @@ end
 # do not have a Java counterpart.
 #gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
-gem "webrick", "~> 1.7"
 gem "tzinfo", ">= 1.2.10"
+gem "nokogiri", ">= 1.14.3"
+gem "commonmarker", ">= 0.23.9"
+gem "activesupport", ">= 7.0.4.3"
