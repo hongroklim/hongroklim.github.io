@@ -33,6 +33,8 @@ end
 #gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "tzinfo", ">= 1.2.10"
-gem "nokogiri", ">= 1.14.3"
-gem "commonmarker", ">= 0.23.9"
-gem "activesupport", ">= 7.0.4.3"
+gem "nokogiri", ">= 1.18.3"
+gem "commonmarker", ">= 0.23.10"
+gem "activesupport", ">= 7.0.7.1"
+gem "webrick", ">= 1.8.2"
+gem "rexml", ">= 3.3.9"
